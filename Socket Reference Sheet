@@ -1,0 +1,41 @@
+Intel CPU list
+
+Socket 1151 V1:
+    Motherboard: Z170, Z270, and other 100 and 200 series boards
+    CPU support: 6th gen and 7th gen Core, such as i7 6700K and 7700K 
+    Memory: Both DDR3 and 4, depending on Motherboard
+    PCIe: 3
+    Note: incompatible with 8th and 9th gen CPU.
+
+Socket 1151 V2:
+    Motherboard: Z370 and other 300 series boards.
+    CPU support: 8700K, 9900K, and other 8th and 9th gen CPU
+    Memory: DDR4, (DDR3 motherboards extremely rare)
+    PCIe: 3
+    Note: incompatible with 6th and 7th gen GPU.
+
+Socket 1200:
+    Motherboard: Z490, Z590, other 400 and 500 series boards.
+    CPU support: i9 10900K, i9 11900K
+    Memory: DDR4
+    PCIe: 3 for Z490, 4 for select Z490 and all Z590. PCIe 4 requires 11th gen CPU.
+    
+Socket 1700:
+    Motherboard: Z690 and other 6 series boards.
+    CPU support: 12th gen, 13th gen (upcoming)
+    Memory: DDR4 and 5
+    PCIe: 4 and 5
+    Note: Z690 using PCIe5 storage will decrease bus width to graphics card.
+
+AMD socket
+
+AMD used only one socket for the past 5 years or so, but the iterations and versions of this is confusing. Here’s a brief rundown. Also note that Ryzen 4000 is based on 3000 series and will count towards 3000 series in this handbook.
+Note that AM4 is DDR4 only.
+
+300 series motherboard: Ryzen 1000 and 2000 support, PCIe 3
+
+400 series motherboard: Ryzen 1000 to 3000 support, 5000 varies on BIOS revision, PCIe 3 for all CPUs.
+
+B550 motherboard: official Ryzen 3000 and 5000 support, unofficial support for earlier CPUs. PCIe 4 but chipset is PCIe 3, only Ryzen 3000 and above can utilize PCIe 4.
+
+X570 motherboard: Ryzen 2000, 3000 and 5000 support, unofficially supports earlier CPUs. Also have full PCIe 4 but requires Ryzen 3000 and above. 
