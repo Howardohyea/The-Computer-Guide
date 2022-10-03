@@ -1,15 +1,20 @@
 # Table of Contents
 - [Table of Contents](#table-of-contents)
-- [Intel CPU/Socket list](#intel-cpu-list)
-    - [Overclocking information](#overclocking-information)
-    - [Motherboard support](#motherboard-support)
-- [AMD CPU/Socket list](#amd-socket)
-    - [overclocking information](#overclocking-information-1)
+- [Socket Overview](#socket-overview)
+    - [Intel CPU/Socket list](#intel-cpu-list)
+        - [Overclocking information](#overclocking-information)
+        - [Motherboard support](#motherboard-support)
+    - [AMD CPU/Socket list](#amd-socket)
+        - [overclocking information](#overclocking-information-1)
 
-# Intel CPU/Socket list
+# Socket Overview
+Intel and AMD always releases new CPU sockets every few generations, so it's hard to keep track which generation of CPUs goes with which socket. Thankfully, this guide is here to tell you what everything means.
+
+## Intel CPU/Socket list
+Intel tends to change sockets every 
 
 ### Overclocking information
-Officially, overclocking is possible when only `K` CPUs are being used with `Z` motherboards. However, on some select 12th gen motherboards, it is possible to do *Bus Clock overclocking* on `non-K` CPUs, which is very risky and requires extensive knowledge/
+Officially, overclocking is possible when only `K` CPUs are being used with `Z` motherboards. However, on some select 12th gen motherboards, it is possible to do *Bus Clock overclocking* (occationally called *BCLK overclocking*) on `non-K` CPUs, which is very risky and requires extensive knowledge.
 
 ### Motherboard Support
 Socket 1151 V1:
@@ -26,7 +31,7 @@ Socket 1151 V2:
     CPU support: 8700K, 9900K, and other 8th and 9th gen CPU
     Memory: DDR4, (DDR3 motherboards extremely rare)
     PCIe: 3
-    Note: incompatible with 6th and 7th gen CPU.
+    Note: incompatible with 6th and 7th gen CPU. When 9th gen released, there is another motherboard, Z390, that was released. This works with any 8th and 9th gen CPU out-of-the-box.
 
 Socket 1200:
 
@@ -44,10 +49,10 @@ Socket 1700:
     Note: Z690 using PCIe5 storage will decrease bus width to graphics card.
 
 
-# AMD CPU/socket list
+## AMD CPU/socket list
 
 ### Overclocking information
-All Ryzen CPUs paired with any motherboard except `A series` is overclockable. However, officially the Ryzen 7 5800X3D and all Athlon CPUs is locked, but unofficially they are overclockable.
+All Ryzen CPUs paired with any motherboard except `A series` is overclockable. However, officially the Ryzen 7 5800X3D and all Athlon CPUs is locked, but unofficially they can be overclocked.
 
 AM4 summary and rundown:
 
