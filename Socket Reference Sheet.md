@@ -1,7 +1,12 @@
-# Socket Reference Sheet
-This reference sheet have all information about CPU support in various chipsets and configurations. 
+# Table of Contents
+- [Table of Contents](#table-of-contents)
+- [Intel CPU/Socket list](#intel-cpu-list)
+    - [Overclocking information](#overclocking-information)
+    - [Motherboard support](#motherboard-support)
+- [AMD CPU/Socket list](#amd-socket)
+    - [overclocking information](#overclocking-information-1)
 
-## Intel CPU list
+# Intel CPU/Socket list
 
 ### Overclocking information
 Officially, overclocking is possible when only `K` CPUs are being used with `Z` motherboards. However, on some select 12th gen motherboards, it is possible to do *Bus Clock overclocking* on `non-K` CPUs, which is very risky and requires extensive knowledge/
@@ -39,7 +44,7 @@ Socket 1700:
     Note: Z690 using PCIe5 storage will decrease bus width to graphics card.
 
 
-## AMD socket
+# AMD CPU/socket list
 
 ### Overclocking information
 All Ryzen CPUs paired with any motherboard except `A series` is overclockable. However, officially the Ryzen 7 5800X3D and all Athlon CPUs is locked, but unofficially they are overclockable.
