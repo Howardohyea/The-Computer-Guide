@@ -1,4 +1,4 @@
-Intel CPU list
+# Intel CPU list
 
 Socket 1151 V1:
     Motherboard: Z170, Z270, and other 100 and 200 series boards
@@ -28,7 +28,7 @@ Socket 1700:
     Note: Z690 using PCIe5 storage will decrease bus width to graphics card.
 
 
-AMD socket
+# AMD socket
 
 AM4 summary and rundown:
 
