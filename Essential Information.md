@@ -121,3 +121,28 @@ Extra components you need, if you don't already have them.
 2. keyboard & mouse
 3. USB with a copy of the OS of your choice
 4. Speakers or headphones
+
+## Installation Process
+The order of the list given is only a suggestion. You could switch some around, but do note you might run into trouble installing some components if you did it in the wrong order. For example, installing the GPU before a M.2 SSD can be troublesome as the M.2 slot is usually underneath the GPU.
+
+Here's the steps:
+
+1. Install CPU to motherboard socket, note orientation of CPU in order to prevent damage, then press down on the latch to secure the CPU. 
+2. If you have an M.2 SSD, install it in the motherboard now, or else you might run into issues with clearance later on.
+2. Attach the motherboard to the case, note the orientation of the motherboard, and screw in the scrwes. As a suggestion, don't overtighten them, as you might damage the motherboard traces otherwise. 
+3. Install RAM in corresponding sockets, generally you'd want an even number of sticks of RAM. If you have two sticks, put them in the 2nd and 4th slot on the motherboard. Note: RAM often require a ridiculous amount of force to install, don't be afraid if the motherboard flexes slightly, make sure both ends of the RAM is in place.
+4. Locate the PSU bay, often the lower rear of the case, and secure the PSU inside and plug all necessary cables in the PSU.
+    
+    * list of cables you'd need:
+        * 24 pin cable to the motherboard
+        * 4/8/12 pin for the CPU, depending on the motherboard. The cables are all bundled together in multiples of four and marked `CPU`.
+        * Several cables marked `PCIe`, these are for the GPU, and depending on the card installed it could be 6, 8, 14, 16, or more pins. Always group one 6+2 cable into one bundle, and **never** daisy chain one 6+2 cable into two connectors on the GPU.
+5. Route all PSU cables behind motherboard (or in front, if you don't want to cable manage your build), and plug all the cables into the corresponding place on the motherboard. 
+6. Put a tiny amount of thermal paste on CPU, an X or dot will be sufficient. 
+7. Install CPU cooler by using locking mechanism on motherboard. Please ensure compatibility of cooler with CPU socket, and remove peel before proceeding with installation. 
+8. Plug all relevant fan connectors into the corresponding motherboard fan headers.
+10. Install graphics card, secure screws, and put relevant power connectors in place, including main 🡪 PSU connector.
+11. Attempt to power on PC, with the display cable in GPU instead of motherboard (if applicable).
+12. Connect the front header to the motherboard (located on the lower right corner)
+13. Mash F12, F2, or delete to get into BIOS. The exact keyboard input might vary from motherboard to motherboard, but these three is the most commonly used. 
+
