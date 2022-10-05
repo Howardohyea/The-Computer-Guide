@@ -16,6 +16,10 @@
         - [AM5 support](#am5-support)
 - [Building the PC](#building-the-pc)
     - [Compoment Checklist](#component-checklist)
+    - [Installation Process](#installation-process)
+- [Miscellaneous Notes](#miscellaneous-notes)
+    - [The RAM Rabbit Hole](#the-ram-rabbit-hole)
+    - [Operating Systems](#operating-systems)
 
 # Socket Overview
 Intel and AMD always releases new CPU sockets every few generations, so it's hard to keep track which generation of CPUs goes with which socket. Thankfully, this guide is here to tell you what everything means.
@@ -130,7 +134,7 @@ Here's the steps:
 1. Install CPU to motherboard socket, note orientation of CPU in order to prevent damage, then press down on the latch to secure the CPU. 
 2. If you have an M.2 SSD, install it in the motherboard now, or else you might run into issues with clearance later on.
 2. Attach the motherboard to the case, note the orientation of the motherboard, and screw in the scrwes. As a suggestion, don't overtighten them, as you might damage the motherboard traces otherwise. 
-3. Install RAM in corresponding sockets, generally you'd want an even number of sticks of RAM. If you have two sticks, put them in the 2nd and 4th slot on the motherboard. Note: RAM often require a ridiculous amount of force to install, don't be afraid if the motherboard flexes slightly, make sure both ends of the RAM is in place.
+3. Install RAM in corresponding sockets, for more RAM information, please see [RAM Compatibility](#ram-compatibility). Note: RAM often require a ridiculous amount of force to install, don't be afraid if the motherboard flexes slightly, make sure both ends of the RAM is in place.
 4. Locate the PSU bay, often the lower rear of the case, and secure the PSU inside and plug all necessary cables in the PSU.
     
     * list of cables you'd need:
@@ -146,3 +150,53 @@ Here's the steps:
 12. Connect the front header to the motherboard (located on the lower right corner)
 13. Mash F12, F2, or delete to get into BIOS. The exact keyboard input might vary from motherboard to motherboard, but these three is the most commonly used. 
 
+So, that's the essentials to installing a PC, if your PC isn't booting, please check out [Troubleshooting](Troubleshooting%20Steps).
+
+# Miscellaneous Notes
+Here's some other non-essential information that doesn't really belong anywhere else, such as tips, driver downloads, and information that doesn't fit elsewhere in this document.
+
+## The RAM Rabbit Hole
+Arguably, RAM is one of the most confusing part of a PC, with wild variances even with minor differences in hardware. For a much more detailed information than the one I have here, read this article: [DDR DRAM FAQ](https://www.tomshardware.com/reviews/ddr-dram-faq,4154.html).
+
+Here's some general tips you should follow:
+
+* Buy all your RAM in one kit, which for example might be 2 sticks with 8GB each. Each kit is specifically tested by the manufacturer to have standard timings and each RAM would only work optimally with another from the same kit.
+* Two sticks of RAM is most likely going to outperform 4 sticks if capacity is the same. This is usually caused by additional load on the IMC (Integrated Memory Controller) by running two sticks per channel.
+    * All modern consumer grade CPUs have two memory channels, so I suggest buying 2 sticks (unless 4 sticks is cheaper at the same speed)
+* There's more to memories than just advertised speed. It's like describing a car based on the engine RPM alone. I suggest checking out reviews before purchasing. 
+* If you have two RAM sticks and four motherboard RAM slots, put them in the 2nd and 4th slot of the motherboard for maximum compatibility.
+
+That's just some general buying guide, and here's some technical information:
+
+* If both memory channels have different memory capacities, the CPU would run in what's called `Flex Mode`. This mode will run in dual channel mode (meaning faster bandwidth) as long as the memory utilization is less than twice the capacity of the smallest channel. If the capacity spills over, the system will revert to single channel, trading memory speed to use all of the available memory.
+    * For example, if one channel is 8GB in size and the other is 16, the PC will run in dual channel mode as long as the memory utilization is below 16GB. If it goes over, the memory speed will halve but the PC will have access to the full 24GB of memory.
+* Another obscure piece of information not a lot of people know about is `Memory Rank`. All consumer RAM is either Single or Dual Rank, often abbreviated to 1R or 2R[^1].
+
+### Setting XMP
+XMP, occasionally called DOCP, EXPO, or some other names, is a one-click overclock that changes the speed a stick of RAM runs at from the default JEDEC (often 2133 or 2666MT/s for DDR4) to the advertised speed written on the RAM stick. 
+
+To enable XMP, simply go in the motherboard BIOS, and look for the setting, usually found under `Overclocking`.
+
+## Operating Systems
+I've covered the hardware part in this document previously, but you're going to need some Operating System to interface with the harware. Of course, if you want to write your own OS, feel free to do so, and remember to send me the source code. 
+
+Jokes aside, here's some download links to common OSes (and a few recommended by me).
+
+* [Windows 10](https://www.microsoft.com/en-us/software-download/windows10), a popular OS chosen by over 70% of users worldwide, lighter than 11 and still have the classic UI everyone's familiar with. Despite the release of Windows 11, 10 will still be supported to at least 2025, and the LTSC branch for another 5 years. 
+* [Windows 11](https://www.microsoft.com/en-us/software-download/windows11), Microsoft's latest OS. Despite numerous bugs and issues during launch, it started gaining traction in recent months.
+* [Arch Linux](https://archlinux.org), a highly customizable Linux OS, notorious for it's difficulty to install but offers a user experience like no other.
+    * [Endeavour OS](https://endeavouros.com), based on Arch Linux, but with a graphical installer and comes preinstalled with several essential applications. Basically Arch, but without all the hassle during installation.
+* [Debian](https://debian.org), the backbone of numerous popular Linux distros, Debian and all Debian based OSes holds the largest market share of all Linux distros.
+    * [Linux Mint](https://linuxmint.com), based on the Ubuntu-LTS branch, which in turn is based on Debian. It offers full software compatibility with both Debian and Ubuntu, as well as some Desktop Environments designed to look similar to Windows.
+* [ReactOS](https://reactos.org), an Open Sourced OS with the goal of having **full support** for all Windows applications and drivers natively without emulation, this means it can run `.exe` files without compromise.
+
+## Drivers and Where to Download
+I can't stress this enough, ***never download drivers from Driver Support Utilities***. They're just bloatware eating your system resources, and who knows if they're some virus in disguise?
+
+Anyways the most commomly used drivers are the GPU drivers, and here's a link to them.
+
+* [AMD](https://www.amd.com/en/support)
+* [Nvidia](https://www.nvidia.com/Download/index.aspx?lang=en-us) (choose `Game Ready Drivers`, which contains optimizations for games the `Studio` drivers do not have).
+* [Intel](https://www.intel.com/content/www/us/en/download-center/home.html)
+
+[^1]: Interestingly, there could be more than 2R on server memory, but we're not going to talk about them. 
