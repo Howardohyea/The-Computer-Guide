@@ -20,6 +20,7 @@
 - [Miscellaneous Notes](#miscellaneous-notes)
     - [The RAM Rabbit Hole](#the-ram-rabbit-hole)
     - [Operating Systems](#operating-systems)
+    - [Drivers and where to get them](#drivers-and-where-to-download)
 
 # Socket Overview
 Intel and AMD always releases new CPU sockets every few generations, so it's hard to keep track which generation of CPUs goes with which socket. Thankfully, this guide is here to tell you what everything means.
@@ -136,12 +137,12 @@ Here's the steps:
 2. Attach the motherboard to the case, note the orientation of the motherboard, and screw in the scrwes. As a suggestion, don't overtighten them, as you might damage the motherboard traces otherwise. 
 3. Install RAM in corresponding sockets, for more RAM information, please see [RAM Compatibility](#ram-compatibility). Note: RAM often require a ridiculous amount of force to install, don't be afraid if the motherboard flexes slightly, make sure both ends of the RAM is in place.
 4. Locate the PSU bay, often the lower rear of the case, and secure the PSU inside and plug all necessary cables in the PSU.
-    
     * list of cables you'd need:
         * 24 pin cable to the motherboard
         * 4/8/12 pin for the CPU, depending on the motherboard. The cables are all bundled together in multiples of four and marked `CPU`.
         * Several cables marked `PCIe`, these are for the GPU, and depending on the card installed it could be 6, 8, 14, 16, or more pins. Always group one 6+2 cable into one bundle, and **never** daisy chain one 6+2 cable into two connectors on the GPU.
 5. Route all PSU cables behind motherboard (or in front, if you don't want to cable manage your build), and plug all the cables into the corresponding place on the motherboard. 
+3141. Connect the case front panel headers onto the bottom right of the motherboard. The exact order and location depends on the motherboard, so you'll have to check the motherboard manual to be sure.
 6. Put a tiny amount of thermal paste on CPU, an X or dot will be sufficient. 
 7. Install CPU cooler by using locking mechanism on motherboard. Please ensure compatibility of cooler with CPU socket, and remove peel before proceeding with installation. 
 8. Plug all relevant fan connectors into the corresponding motherboard fan headers.
@@ -156,7 +157,7 @@ So, that's the essentials to installing a PC, if your PC isn't booting, please c
 Here's some other non-essential information that doesn't really belong anywhere else, such as tips, driver downloads, and information that doesn't fit elsewhere in this document.
 
 ## The RAM Rabbit Hole
-Arguably, RAM is one of the most confusing part of a PC, with wild variances even with minor differences in hardware. For a much more detailed information than the one I have here, read this article: [DDR DRAM FAQ](https://www.tomshardware.com/reviews/ddr-dram-faq,4154.html).
+Arguably, RAM is one of the most confusing part of a PC, with wild variances even with minor differences in hardware. For a much more detailed information than the one I have here, check out this very well-written article: [DDR DRAM FAQ](https://www.tomshardware.com/reviews/ddr-dram-faq,4154.html).
 
 Here's some general tips you should follow:
 
@@ -182,11 +183,12 @@ I've covered the hardware part in this document previously, but you're going to 
 
 Jokes aside, here's some download links to common OSes (and a few recommended by me).
 
-* [Windows 10](https://www.microsoft.com/en-us/software-download/windows10), a popular OS chosen by over 70% of users worldwide, lighter than 11 and still have the classic UI everyone's familiar with. Despite the release of Windows 11, 10 will still be supported to at least 2025, and the LTSC branch for another 5 years. 
+* [Windows 10](https://www.microsoft.com/en-us/software-download/windows10), a popular OS with by far the largest market share, it is lighter than 11 and still have the classic UI everyone's familiar with. Despite the release of Windows 11, 10 will still be supported to at least 2025, and the LTSC branch for another 5 years. 
 * [Windows 11](https://www.microsoft.com/en-us/software-download/windows11), Microsoft's latest OS. Despite numerous bugs and issues during launch, it started gaining traction in recent months.
-* [Arch Linux](https://archlinux.org), a highly customizable Linux OS, notorious for it's difficulty to install but offers a user experience like no other.
-    * [Endeavour OS](https://endeavouros.com), based on Arch Linux, but with a graphical installer and comes preinstalled with several essential applications. Basically Arch, but without all the hassle during installation.
-* [Debian](https://debian.org), the backbone of numerous popular Linux distros, Debian and all Debian based OSes holds the largest market share of all Linux distros.
+* [Arch Linux](https://archlinux.org), a true "DIY" OS where nothing comes preinstalled, and the user have to do literally everything. As a result, it is the most customizable Linux distro and is notorious for it's difficult installation process.
+    * [Endeavour OS](https://endeavouros.com), based on Arch Linux, but with a graphical installer and comes preinstalled with several essential applications. Probably the closest you'll ever get to native Arch without the installation hassle.
+    <!--fun fact, the author of this document uses Endeavour-->
+* [Debian](https://debian.org), the backbone of Ubuntu and numerous other distros, when combined, all Debian based distros holds the largest market share of any Linux OS.
     * [Linux Mint](https://linuxmint.com), based on the Ubuntu-LTS branch, which in turn is based on Debian. It offers full software compatibility with both Debian and Ubuntu, as well as some Desktop Environments designed to look similar to Windows.
 * [ReactOS](https://reactos.org), an Open Sourced OS with the goal of having **full support** for all Windows applications and drivers natively without emulation, this means it can run `.exe` files without compromise.
 
@@ -197,6 +199,8 @@ Anyways the most commomly used drivers are the GPU drivers, and here's a link to
 
 * [AMD](https://www.amd.com/en/support)
 * [Nvidia](https://www.nvidia.com/Download/index.aspx?lang=en-us) (choose `Game Ready Drivers`, which contains optimizations for games the `Studio` drivers do not have).
-* [Intel](https://www.intel.com/content/www/us/en/download-center/home.html)
+* [Intel](https://www.intel.com/content/www/us/en/download-center/home.html), but remember, Arc is Intel's discrete GPU, not their integrated.
+
+If you're looking for motherboard drivers, you'll have to search the motherboard manufacturer's website. There's too many of them, so I won't list them all here.
 
 [^1]: Interestingly, there could be more than 2R on server memory, but we're not going to talk about them. 

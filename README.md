@@ -8,4 +8,4 @@ I might make some stupid mistakes, like spelling or incorrect formatting. In tha
 The same goes for incorrect information which I haven't noticed when writing, just submit an issue, or if you want to fix it youself, see [Contribute](#contribute)
 
 ## Contribute
-If you feel like you have some changes or anything you want to implement, make a fork, do your edit, then submit a pull request back to this project. 
+If you feel like you have some changes or anything you want to implement, just make a fork of `Computer-QRH`, do your edit, then submit a pull request back to this project. 
