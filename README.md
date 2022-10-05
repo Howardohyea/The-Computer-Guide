@@ -1,14 +1,11 @@
 # Computer-QRH
-a quick, comprehensive guide to building and troubleshooting basic PC problems
+A quick, comprehensive guide to building and troubleshooting basic PC problems
 
-this is HEAVILY WIP, as I'm moving everything from a word document to this GitHub project
-
-Alternatively, check [this finished guide](https://docs.google.com/document/d/12F3AxP4LVmn4_JSFSkIzYDcZlmYdpqMd) out in the meantime (I will no longer update this document, as all future information will go here)
 
 ## Reporting issues
-I might make some stupid mistakes, like spelling or incorrect formatting. In that case, submit an issue and I'll resolve it. 
+I might make some stupid mistakes, like spelling or incorrect formatting. In that case, submit an issue [right here](https://github.com/Howardohyea/Computer-QRH/issues) and I'll resolve it. 
 
 The same goes for incorrect information which I haven't noticed when writing, just submit an issue, or if you want to fix it youself, see [Contribute](#contribute)
 
 ## Contribute
-If you feel like you have some changes or anything you want to implement, make a fork of this project, do your edit, then submit a pull request back to this project. 
+If you feel like you have some changes or anything you want to implement, make a fork, do your edit, then submit a pull request back to this project. 
