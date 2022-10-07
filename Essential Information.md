@@ -203,4 +203,9 @@ Anyways the most commomly used drivers are the GPU drivers, and here's a link to
 
 If you're looking for motherboard drivers, you'll have to search the motherboard manufacturer's website. There's too many of them, so I won't list them all here.
 
+## Tips
+Here's a few tips that I suggest you to follow.
+
+1. 
+
 [^1]: Interestingly, there could be more than 2R on server memory, but we're not going to talk about them. 
