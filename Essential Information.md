@@ -4,6 +4,7 @@
 - [Table of Contents](#table-of-contents)
 - [Socket Overview](#socket-overview)
     - [Intel CPU/Socket list](#intel-cpu-list)
+        - [The various suffix](#the-various-suffix)
         - [Integrated Graphics](#integrated-graphics)
         - [Overclocking information](#overclocking-information)
         - [Motherboard support](#motherboard-support)
@@ -28,6 +29,28 @@ Intel and AMD always releases new CPU sockets every few generations, so it's har
 
 ## Intel CPU/Socket list
 Intel tends to change sockets every two generations of CPUs, and might be confusing to some. 
+
+### The various suffix
+Intel is known to have a lot of different suffix to various processors, here's their meaning. 
+
+K: overclockable and fully unlocked, every setting about the CPU frequency and voltage can be tweaked.
+
+F: see [Integrated Graphics](#integrated-graphics).
+
+S: Special chips featuring higher core clocks than the non-S counterparts. Only CPUs released with the S suffix is the `i9 12900KS` and the `i9 9900KS`
+
+X: HEDT[^1] chips, featuring much more core counts, PCIe lanes, and other features compared to the desktop counterparts. There is also the `XE` suffix, indicating it's the flagship. Intel haven't released any HEDT since the `i9 10980XE` in late 2019.
+
+T: Optimized for low power, with a max power of typically 65 watts for use in special cases. There is also a very rare `B` suffix, which have a power limit slightly higher than the T processors.
+
+H: Laptop CPUs, with a high power/performance.
+
+P: Laptop CPUs, with a medium power and medium performance.
+
+U/G: Laptop CPUs with low power and performance. G means it have a better integrated GPU than the U.
+
+Y: very low power, down to 8 watts, low core count typically too.
+
 
 ### Integrated Graphics
 All Intel CPUs comes with integrated GPUs, except CPUs marked with `F`, such as the `i7 12700KF`. The `F` variants tends to be ~20 USD cheaper than the non-F counterparts. **However**, I strongly recommend spending some extra money for the iGPU, as they are excellent video encoders and is very useful when it comes to troubleshooting.
@@ -172,7 +195,7 @@ That's just some general buying guide, and here's some technical information:
 
 * If both memory channels have different memory capacities, the CPU would run in what's called `Flex Mode`. This mode will run in dual channel mode (meaning faster bandwidth) as long as the memory utilization is less than twice the capacity of the smallest channel. If the capacity spills over, the system will revert to single channel, trading memory speed to use all of the available memory.
     * For example, if one channel is 8GB in size and the other is 16, the PC will run in dual channel mode as long as the memory utilization is below 16GB. If it goes over, the memory speed will halve but the PC will have access to the full 24GB of memory.
-* Another obscure piece of information not a lot of people know about is `Memory Rank`. All consumer RAM is either Single or Dual Rank, often abbreviated to 1R or 2R[^1].
+* Another obscure piece of information not a lot of people know about is `Memory Rank`. All consumer RAM is either Single or Dual Rank, often abbreviated to 1R or 2R[^2].
 
 ### Setting XMP
 XMP, occasionally called DOCP, EXPO, or some other names, is a one-click overclock that changes the speed a stick of RAM runs at from the default JEDEC (often 2133 or 2666MT/s for DDR4) to the advertised speed written on the RAM stick. 
@@ -218,4 +241,6 @@ Here's a few tips that I suggest you to follow.
     - [Linus Tech Tips](https://www.youtube.com/c/LinusTechTips). I wouldn't take whatever Linus says for granted, but he is entertaining to watch.
 
 
-[^1]: Interestingly, there could be more than 2R on server memory, but we're not going to talk about them. 
+[^1]: Stands for High End DeskTop
+
+[^2]: Interestingly, there could be more than 2R on server memory, but we're not going to talk about them. 
