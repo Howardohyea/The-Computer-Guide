@@ -21,6 +21,7 @@
     - [The RAM Rabbit Hole](#the-ram-rabbit-hole)
     - [Operating Systems](#operating-systems)
     - [Drivers and where to get them](#drivers-and-where-to-download)
+    - [Tips](#tips)
 
 # Socket Overview
 Intel and AMD always releases new CPU sockets every few generations, so it's hard to keep track which generation of CPUs goes with which socket. Thankfully, this guide is here to tell you what everything means.
@@ -206,6 +207,15 @@ If you're looking for motherboard drivers, you'll have to search the motherboard
 ## Tips
 Here's a few tips that I suggest you to follow.
 
-1. 
+1. monitor various properties of your hardware using [HWiNFO](https://hwinfo.com), includes voltage, temps, power, and pretty much all information you need.
+2. Benchmarks:
+    - [Cinebench R23](https://apps.microsoft.com/store/detail/9PGZKJC81Q7J?hl=en-us&gl=US), a strictly CPU benchmark that is almost an industrial standard
+    - [3DMark](https://3dmark.com), a synthetic benchmark, not very good for comparison between hardware but useful to test overclocking. The full test is paid but the free demo can be found [here](steam://install/231350) (requires Steam to be installed on your PC).
+3. Please don't use `Userbenchmark` to test your hardware, they are so biased it's a meme at this point. If you want to hear more details about why they suck, submit an issue and I'll comment the details, I don't want to turn this document into a rant against UBM.
+4. Some review sites I recommend:
+    - [TechPowerUp](https://techpowerup.com)
+    - [Tom's Hardware](https://tomshardware.com) (they are going in a downhill trend ever since 2020, but if you need to research old hardware, all their articles before 2019 is *fantastic*)
+    - [Linus Tech Tips](https://www.youtube.com/c/LinusTechTips). I wouldn't take whatever Linus says for granted, but he is entertaining to watch.
+
 
 [^1]: Interestingly, there could be more than 2R on server memory, but we're not going to talk about them. 
