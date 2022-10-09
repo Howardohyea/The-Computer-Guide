@@ -2,7 +2,7 @@
 - [Table of Contents](#table-of-contents)
 - [What's the issue?](#whats-the-issue)
 	- [Your first build isn't booting](#your-first-build-isnt-booting)
-	- [Advanced troubleshooting]
+	- [Advanced troubleshooting](#advanced-troubleshooting)
 
 
 # What's the issue?
@@ -29,3 +29,6 @@ I assume you just came from [Essential Information](Essential%20Information.md),
 That's it for a non-booting build, if it still doesn't boot, odds are you got a bad component somewhere or you didn't follow those instructions very well. Go over them a few times, who knows if third time's the charm?
 
 ## Advanced Troubleshooting
+Maybe your PC was working and it suddenly decided to just give up, it have stability issues, or you just need some instructions as to how to fix something. I'm splitting this section into smaller topics, refer to the Table of Contents for more details.
+
+### Instabilities

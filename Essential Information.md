@@ -209,7 +209,7 @@ Jokes aside, here's some download links to common OSes (and a few recommended by
 
 * [Windows 10](https://www.microsoft.com/en-us/software-download/windows10), a popular OS with by far the largest market share, it is lighter than 11 and still have the classic UI everyone's familiar with. Despite the release of Windows 11, 10 will still be supported to at least 2025, and the LTSC branch for another 5 years. 
 * [Windows 11](https://www.microsoft.com/en-us/software-download/windows11), Microsoft's latest OS. Despite numerous bugs and issues during launch, it started gaining traction in recent months.
-* [Arch Linux](https://archlinux.org), a true "DIY" OS where nothing comes preinstalled, and the user have to do literally everything. As a result, it is the most customizable Linux distro and is notorious for it's difficult installation process.
+* [Arch Linux](https://archlinux.org), a true "DIY" OS where nothing comes preinstalled, and the user have to do literally everything, IKEA style. As a result, it is the most customizable Linux distro and is notorious for it's difficult installation process.
     * [Endeavour OS](https://endeavouros.com), based on Arch Linux, but with a graphical installer and comes preinstalled with several essential applications. Probably the closest you'll ever get to native Arch without the installation hassle.
     <!--fun fact, the author of this document uses Endeavour-->
 * [Debian](https://debian.org), the backbone of Ubuntu and numerous other distros, when combined, all Debian based distros holds the largest market share of any Linux OS.
