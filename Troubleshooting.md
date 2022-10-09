@@ -36,7 +36,14 @@ Sometimes a given system might be instable due to several reasons, such as a bad
 
 As a rule of thumb, CPUs are *extremely* hard to break, so I'm not going to consider any scenearios where they are the issue.
 
-- First off, if you have **any overclock**, reset it back to stock unless you know what you're doing. 
-- RAM and the CPU's IMC[^note] might be a bad pair, especially with older CPUs running DDR4 3200 and above. 
+- First off, if you have **any overclock** like CPU core, RAM, and GPU, reset it back to stock unless you know what you're doing. 
+- RAM and the CPU's IMC[^1] might be a bad pair, especially with older CPUs, like Ryzen 1000 and 2000, as well as Intel Skylake (does not include 7th gen Kaby) running DDR4 3200 and above.
+	- To see if the memory is stable or not, download [OCCT](https://ocbase.com) and run the test using the dedicated memory test (both the SSE and AVX test would do).[^2]
+		- AIDA64 and Memtest64 might miss some errors, and **definitely** don't use the built in Windows RAM troubleshooter.
+	- If the test returns unstable, return the RAM back to stock by resetting the CMOS. You'll loose speed, but it should be stable at least.
+- GPU OC and stablility can be tested using 3DMark, detailed in the other [Essential Information](Essential%20Information#tips) document.
+	- Alternatively [Furmark](https://www.techpowerup.com/download/furmark/) is good for GPU stress testing because it causes the GPu to draw the absolute max power it could. 
+- There isn't an effective way to test a motherboard. 
 
-[^note]: Integrated Memory Controller
+[^1]: Integrated Memory Controller
+[^2]: For more details about memory testing software and DDR4 OC in general, read [this excellent article](https://github.com/integralfx/MemTestHelper/blob/oc-guide/DDR4%20OC%20Guide.md#memory-testing-software) written by Integralfx.
