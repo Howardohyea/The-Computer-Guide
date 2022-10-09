@@ -32,3 +32,11 @@ That's it for a non-booting build, if it still doesn't boot, odds are you got a 
 Maybe your PC was working and it suddenly decided to just give up, it have stability issues, or you just need some instructions as to how to fix something. I'm splitting this section into smaller topics, refer to the Table of Contents for more details.
 
 ### Instabilities
+Sometimes a given system might be instable due to several reasons, such as a bad component, power reasons, or unstable overclock. Here's a list to troubleshoot the possible components. 
+
+As a rule of thumb, CPUs are *extremely* hard to break, so I'm not going to consider any scenearios where they are the issue.
+
+- First off, if you have **any overclock**, reset it back to stock unless you know what you're doing. 
+- RAM and the CPU's IMC[^note] might be a bad pair, especially with older CPUs running DDR4 3200 and above. 
+
+[^note]: Integrated Memory Controller
