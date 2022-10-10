@@ -94,14 +94,14 @@ Socket 1700:
 
 
 ## AMD CPU/socket list
-Unlike Intel, AMD tends to support each motherboard socket for as long as possible, often 5 years. This means theoretically you could use the same motherboard on quite a few generations of CPUs, although you have to check the BIOS compatibility, see the below sections for some information.
+Unlike Intel, AMD tends to support each motherboard socket for a fairly long time, and promises to support AM5 until 2025. This means theoretically you could use the same motherboard on quite a few generations of CPUs, although you have to check the BIOS compatibility, see the below sections for some information.
 
-## Integrated graphics
+### Integrated graphics
 #### AM4
 Only CPUs with the `G` suffix have an iGPU, such as the `Ryzen 7 5700G`. All `non-G` CPUs doesn't have any integrated graphics.
 
 #### AM5
-For AM5, all CPUs have integrated graphics, **there is no CPUs without iGPU as of time of this writing**. Despite this, `G Series` CPUs are still being released, featuring a much more powerful graphics than the ones without the G suffix.
+For AM5, all CPUs have integrated graphics, **there is no CPUs without iGPU as of time of this writing**. Despite this, `G Series` CPUs will still be released, featuring a much more powerful graphics than the ones without the G suffix.
 
 ### Overclocking information
 All Ryzen CPUs paired with any motherboard except `A series` is overclockable. However, officially the Ryzen 7 5800X3D and all Athlon CPUs is locked, but unofficially they can be overclocked.
@@ -239,6 +239,7 @@ Here's a few tips that I suggest you to follow.
     - [TechPowerUp](https://techpowerup.com)
     - [Tom's Hardware](https://tomshardware.com) (they are going in a downhill trend ever since 2020, but if you need to research old hardware, all their articles before 2019 is *fantastic*)
     - [Linus Tech Tips](https://www.youtube.com/c/LinusTechTips). I wouldn't take whatever Linus says for granted, but he is entertaining to watch.
+5. I actually suggest turning off or not enabling `BitLocker` or any drive encryption. This *will* make your PC vulnerable if it's stolen as anyone can look at your files, but what are the odds of that? Also, turning it off can make salvaging your files when something goes catastrophically wrong much easier. 
 
 
 [^1]: Stands for High End DeskTop

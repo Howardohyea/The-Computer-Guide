@@ -43,7 +43,11 @@ As a rule of thumb, CPUs are *extremely* hard to break, so I'm not going to cons
 	- If the test returns unstable, return the RAM back to stock by resetting the CMOS. You'll loose speed, but it should be stable at least.
 - GPU OC and stablility can be tested using 3DMark, detailed in the other [Essential Information](Essential%20Information#tips) document.
 	- Alternatively [Furmark](https://www.techpowerup.com/download/furmark/) is good for GPU stress testing because it causes the GPu to draw the absolute max power it could. 
-- There isn't an effective way to test a motherboard. 
+- There isn't an effective way to test a motherboard, you can only look for signs that it's unstable.
+	- Swapping GPUs can eliminate issues with the PCIe bus, and testing each individual RAM stick in different slots can rule out a memory issue.
+- Having high wattage components paired with a lower end PSU can cause the PSU to trigger it's protection and shut itself down. If your PC is just starting to do any heavy workloads when the shutdown happens this is probably what's happening.
+	- In this case, there's not much you could do without swapping PSUs, you could try limit your PC's total power consumed but there's only so much you could do on the software side.[^3]
 
 [^1]: Integrated Memory Controller
 [^2]: For more details about memory testing software and DDR4 OC in general, read [this excellent article](https://github.com/integralfx/MemTestHelper/blob/oc-guide/DDR4%20OC%20Guide.md#memory-testing-software) written by Integralfx.
+[^3]: You could try undervolting your CPU or at least control it's power using [ThrottleStop](https://www.techpowerup.com/download/techpowerup-throttlestop), or simply lower the frequency and voltage via the BIOS. For the GPU, [MSI AB](https://msi.com/Landing/afterburner) or any popular GPU overclocking app can limit the GPU's power consumption.
