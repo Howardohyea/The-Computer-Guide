@@ -151,6 +151,8 @@ Extra components you need, if you don't already have them.
 3. USB with a copy of the OS of your choice
 4. Speakers or headphones
 
+I also recommend using [PC Part Picker](https://pcpartpicker.com) to pick your components, they even include information such as case clearance and other compatibility information.
+
 ## Installation Process
 The order of the list given is only a suggestion. You could switch some around, but do note you might run into trouble installing some components if you did it in the wrong order. For example, installing the GPU before a M.2 SSD can be troublesome as the M.2 slot is usually underneath the GPU.
 

@@ -18,6 +18,9 @@ Since GitHub doesn't have a very good comment system, just use [issues](https://
 ## Contribute
 If you feel like you have some changes or anything you want to implement, just make a fork of `Computer-QRH`, do your edit, then submit a pull request back to this project. 
 
+## Future Expansions
+Now that I'm more or less finished with all the files and Markdowns, I'm going to slowly add more information and images, and I'm going to make this into a GitHub Pages site.
+
 <!-- contact-->
 
 <!-- I've left this out in the actual document because not a lot of people will go and look at the source, so it should eliminate most spams. I hope whoever's reading this will only contact me with good faith.

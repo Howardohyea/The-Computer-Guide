@@ -4,6 +4,8 @@
 	- [Your first build isn't booting](#your-first-build-isnt-booting)
 	- [Advanced troubleshooting](#advanced-troubleshooting)
 - [System Maintenance](#system-maintenance)
+	- [viruses](#viruses)
+	- [Hardware Maintenance](#hardware-maintenance)
 
 
 # What's the issue?
