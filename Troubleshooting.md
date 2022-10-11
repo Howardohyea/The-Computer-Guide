@@ -52,6 +52,36 @@ As a rule of thumb, CPUs are *extremely* hard to break, so I'm not going to cons
 # System maintenance
 Windows have a very good system to upgrading the system, and pretty much everything is automated. Run their updater every now and then and you're good to go.
 
+Also, it's suggested to keep your GPU driver as recent as possible, but you don't really need to do anything about motherboard BIOS. typically you're perfectly fine leaving it as-is because there won't be any new features added and those updates most likely just includes support for some obscure CPU.
+
+## Viruses
+First off, use common sense. Secondly, *don't* go and install every antivirus programs you can find if you think your PC is infected. 
+
+What is common sense? 
+1. Don't install suspicious packages from suspicious sites, and *only* download games from Steam.
+2. Leave your firewall up at all times, and keep only the bare minimum amount of ports open.
+3. So called "Game Hacks" are most likely viruses, also, you shouldn't be using any hacks in the first place. 
+4. and here's an excellent quote on what is common sense:
+> Common Sense is sound logic with practical and good reasoning. It is searching for simple but very useful ways of making decisions to solve problems. We are all born with the ability to think, create, and solve problems.
+Common sense lives by the rule of thinking before you act. It helps us to see what can become of something like George Washington Carver did, who saw how practical resources could benefit many people in the world.
+Common sense is not solely about using our minds to think of cool or witty inventions that will make us lots of money. It is about making wise decisions that affect our lives. When we lack common sense, we make decisions based on emotions rather than logic.
+
+Okay, jokes aside, what should you do on the off chance you didn't follow common sense?
+1. Use [Windows Security](www.pcmag.com/reviews/microsoft-windows-defender-security-center). This built in tool is surprisingly competent at removing any malware and is definitely more than sufficient for most users.
+2. Follow the on-screen guides of Windows Security and you're good to go.
+
+## Hardware Maintenance
+There's not much you need to do hardware wise to keep your system fresh. If you have competent dust filters you don't even need to clear dust that often. If you do need to clear dust, use compressed air. 
+
+Compressed air tends to be much more powerful and focused than your hairdryer, which doesn't do much *at all* to stubborn dust in a PC case.
+
+1. Take off the GPU shroud to get easier access to the fins and fans.
+2. Blow with compressed air until it's clean.
+3. If you're too lazy to install the shroud, sure, it doesn't do anything except block airflow and makes your hardware looks better.
+
+That's it for hardware maintenance, there's zero reasons for you to do anything except swapping parts once you threw this rig together.
+
+
 [^1]: Integrated Memory Controller
 [^2]: For more details about memory testing software and DDR4 OC in general, read [this excellent article](https://github.com/integralfx/MemTestHelper/blob/oc-guide/DDR4%20OC%20Guide.md#memory-testing-software) written by Integralfx.
 [^3]: You could try undervolting your CPU or at least control it's power using [ThrottleStop](https://www.techpowerup.com/download/techpowerup-throttlestop), or simply lower the frequency and voltage via the BIOS. For the GPU, [MSI AB](https://msi.com/Landing/afterburner) or any popular GPU overclocking app can limit the GPU's power consumption.

@@ -1,5 +1,5 @@
 # Computer-QRH
-A quick, comprehensive guide to building and troubleshooting basic PC problems
+A guide to building a PC and troubleshoot whatever problems it have. All I've written here is very oversimplified but for the sake of simplicity I've omitted quite a bit of information.
 
 For the actual guides, please click on the following:
 
@@ -17,3 +17,10 @@ Since GitHub doesn't have a very good comment system, just use [issues](https://
 
 ## Contribute
 If you feel like you have some changes or anything you want to implement, just make a fork of `Computer-QRH`, do your edit, then submit a pull request back to this project. 
+
+<!-- contact-->
+
+<!-- I've left this out in the actual document because not a lot of people will go and look at the source, so it should eliminate most spams. I hope whoever's reading this will only contact me with good faith.
+Discord: Howardohyea#0001
+email: howardohyea@outlook.com
+-->
