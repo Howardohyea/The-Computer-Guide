@@ -3,6 +3,7 @@
 - [What's the issue?](#whats-the-issue)
 	- [Your first build isn't booting](#your-first-build-isnt-booting)
 	- [Advanced troubleshooting](#advanced-troubleshooting)
+- [System Maintenance](#system-maintenance)
 
 
 # What's the issue?
@@ -47,6 +48,9 @@ As a rule of thumb, CPUs are *extremely* hard to break, so I'm not going to cons
 	- Swapping GPUs can eliminate issues with the PCIe bus, and testing each individual RAM stick in different slots can rule out a memory issue.
 - Having high wattage components paired with a lower end PSU can cause the PSU to trigger it's protection and shut itself down. If your PC is just starting to do any heavy workloads when the shutdown happens this is probably what's happening.
 	- In this case, there's not much you could do without swapping PSUs, you could try limit your PC's total power consumed but there's only so much you could do on the software side.[^3]
+
+# System maintenance
+Windows have a very good system to upgrading the system, and pretty much everything is automated. Run their updater every now and then and you're good to go.
 
 [^1]: Integrated Memory Controller
 [^2]: For more details about memory testing software and DDR4 OC in general, read [this excellent article](https://github.com/integralfx/MemTestHelper/blob/oc-guide/DDR4%20OC%20Guide.md#memory-testing-software) written by Integralfx.

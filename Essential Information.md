@@ -212,7 +212,7 @@ Jokes aside, here's some download links to common OSes (and a few recommended by
 * [Arch Linux](https://archlinux.org), a true "DIY" OS where nothing comes preinstalled, and the user have to do literally everything, IKEA style. As a result, it is the most customizable Linux distro and is notorious for it's difficult installation process.
     * [Endeavour OS](https://endeavouros.com), based on Arch Linux, but with a graphical installer and comes preinstalled with several essential applications. Probably the closest you'll ever get to native Arch without the installation hassle.
     <!--fun fact, the author of this document uses Endeavour-->
-* [Debian](https://debian.org), the backbone of Ubuntu and numerous other distros, when combined, all Debian based distros holds the largest market share of any Linux OS.
+* [Debian](https://debian.org), the backbone of Ubuntu and numerous other distros, when combined, all Debian based distros holds the largest market share of any Linux OS.[^3]
     * [Linux Mint](https://linuxmint.com), based on the Ubuntu-LTS branch, which in turn is based on Debian. It offers full software compatibility with both Debian and Ubuntu, as well as some Desktop Environments designed to look similar to Windows.
 * [ReactOS](https://reactos.org), an Open Sourced OS with the goal of having **full support** for all Windows applications and drivers natively without emulation, this means it can run `.exe` files without compromise.
 
@@ -237,11 +237,13 @@ Here's a few tips that I suggest you to follow.
 3. Please don't use `Userbenchmark` to test your hardware, they are so biased it's a meme at this point. If you want to hear more details about why they suck, submit an issue and I'll comment the details, I don't want to turn this document into a rant against UBM.
 4. Some review sites I recommend:
     - [TechPowerUp](https://techpowerup.com)
-    - [Tom's Hardware](https://tomshardware.com) (they are going in a downhill trend ever since 2020, but if you need to research old hardware, all their articles before 2019 is *fantastic*)
+    - [Tom's Hardware](https://tomshardware.com) (they're not as good as their hayday in terms of article quality since 2019, but if you need to research old hardware, all their articles before 2019 is *fantastic*)
     - [Linus Tech Tips](https://www.youtube.com/c/LinusTechTips). I wouldn't take whatever Linus says for granted, but he is entertaining to watch.
-5. I actually suggest turning off or not enabling `BitLocker` or any drive encryption. This *will* make your PC vulnerable if it's stolen as anyone can look at your files, but what are the odds of that? Also, turning it off can make salvaging your files when something goes catastrophically wrong much easier. 
+5. I actually suggest turning off or not enabling `BitLocker` or any drive encryption. This *will* make your PC vulnerable if it's stolen as anyone with the right knowledge can look at your files, but what are the odds of that? Also, turning it off can make salvaging your files when something goes catastrophically wrong much easier. 
+5. [Windows Terminal](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701) is a very good and customizable replacement to the ancient CMD interface with hardware accelerated text.
 
 
 [^1]: Stands for High End DeskTop
 
 [^2]: Interestingly, there could be more than 2R on server memory, but we're not going to talk about them. 
+[^3]: If you're going the Linux route, I recommend KDE as your Desktop Environment.
