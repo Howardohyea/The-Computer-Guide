@@ -58,7 +58,7 @@ All Intel CPUs comes with integrated GPUs, except CPUs marked with `F`, such as 
 Intel's integrated graphics are all quite weak though, don't expect them to be able to do anything except handle a display output and regular office tasks. 
 
 ### Overclocking information
-Officially, overclocking is possible when only `K` CPUs are being used with `Z` motherboards. However, on some select 12th gen motherboards, it is possible to do *Bus Clock overclocking* (occationally called *BCLK overclocking*) on `non-K` CPUs, which is very risky and requires extensive knowledge.
+Officially, overclocking is possible when only `K` CPUs are being used with `Z` motherboards. However, on some select 12th gen motherboards, it is possible to do *Bus Clock overclocking* (abbreviated to *BCLK overclocking*) on `non-K` CPUs, which is very risky and requires extensive knowledge.[^2]
 
 ### Motherboard Support
 Socket 1151 V1:
@@ -104,7 +104,7 @@ Only CPUs with the `G` suffix have an iGPU, such as the `Ryzen 7 5700G`. All `no
 For AM5, all CPUs have integrated graphics, **there is no CPUs without iGPU as of time of this writing**. Despite this, `G Series` CPUs will still be released, featuring a much more powerful graphics than the ones without the G suffix.
 
 ### Overclocking information
-All Ryzen CPUs paired with any motherboard except `A series` is overclockable. However, officially the Ryzen 7 5800X3D and all Athlon CPUs is locked, but unofficially they can be overclocked.
+All Ryzen CPUs paired with any motherboard except `A series` is officially overclockable. However, officially the Ryzen 7 5800X3D and all Athlon CPUs is locked, but unofficially they can be overclocked.
 
 ### AM4 support
 AM4 only supports DDR4
@@ -197,7 +197,7 @@ That's just some general buying guide, and here's some technical information:
 
 * If both memory channels have different memory capacities, the CPU would run in what's called `Flex Mode`. This mode will run in dual channel mode (meaning faster bandwidth) as long as the memory utilization is less than twice the capacity of the smallest channel. If the capacity spills over, the system will revert to single channel, trading memory speed to use all of the available memory.
     * For example, if one channel is 8GB in size and the other is 16, the PC will run in dual channel mode as long as the memory utilization is below 16GB. If it goes over, the memory speed will halve but the PC will have access to the full 24GB of memory.
-* Another obscure piece of information not a lot of people know about is `Memory Rank`. All consumer RAM is either Single or Dual Rank, often abbreviated to 1R or 2R[^2].
+* Another obscure piece of information not a lot of people know about is `Memory Rank`. All consumer RAM is either Single or Dual Rank, often abbreviated to 1R or 2R[^3].
 
 ### Setting XMP
 XMP, occasionally called DOCP, EXPO, or some other names, is a one-click overclock that changes the speed a stick of RAM runs at from the default JEDEC (often 2133 or 2666MT/s for DDR4) to the advertised speed written on the RAM stick. 
@@ -214,7 +214,7 @@ Jokes aside, here's some download links to common OSes (and a few recommended by
 * [Arch Linux](https://archlinux.org), a true "DIY" OS where nothing comes preinstalled, and the user have to do literally everything, IKEA style. As a result, it is the most customizable Linux distro and is notorious for it's difficult installation process.
     * [Endeavour OS](https://endeavouros.com), based on Arch Linux, but with a graphical installer and comes preinstalled with several essential applications. Probably the closest you'll ever get to native Arch without the installation hassle.
     <!--fun fact, the author of this document uses Endeavour-->
-* [Debian](https://debian.org), the backbone of Ubuntu and numerous other distros, when combined, all Debian based distros holds the largest market share of any Linux OS.[^3]
+* [Debian](https://debian.org), the backbone of Ubuntu and numerous other distros, when combined, all Debian based distros holds the largest market share of any Linux OS.[^4]
     * [Linux Mint](https://linuxmint.com), based on the Ubuntu-LTS branch, which in turn is based on Debian. It offers full software compatibility with both Debian and Ubuntu, as well as some Desktop Environments designed to look similar to Windows.
 * [ReactOS](https://reactos.org), an Open Sourced OS with the goal of having **full support** for all Windows applications and drivers natively without emulation, this means it can run `.exe` files without compromise.
 
@@ -246,6 +246,6 @@ Here's a few tips that I suggest you to follow.
 
 
 [^1]: Stands for High End DeskTop
-
-[^2]: Interestingly, there could be more than 2R on server memory, but we're not going to talk about them. 
-[^3]: If you're going the Linux route, I recommend KDE as your Desktop Environment.
+[^2]: Bus Clock also dictates other system components like RAM and PCIe, kind of like letting a clock run faster and hope everyone catches up to it.
+[^3]: Interestingly, there could be more than 2R on server memory, but we're not going to talk about them. 
+[^4]: If you're going the Linux route, I recommend KDE as your Desktop Environment.

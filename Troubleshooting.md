@@ -16,12 +16,12 @@ I assume you just came from [Essential Information](Essential%20Information.md),
 
 1. Check the cables. Odds are you forgot one of those, or even forgot to turn the PSU on. Here's a list of the cables you need.
     - 24 pin cable to the motherboard, on the right of the RAM slots.
-	- 4/8/12 pin for the CPU, depending on the motherboard. The cables are all bundled together in multiples of four and marked CPU. This is on the top right of the motherboard.
+	- 4/8/12 pin for the CPU, depending on the motherboard. The cables are all bundled together in multiples of four and marked CPU. This is on the top left of the motherboard.
 	- Several cables marked PCIe, these are for the GPU, and depending on the card installed it could be 6, 8, 14, 16, or more pins. Always group one 6+2 cable into one bundle, and **never** daisy chain one 6+2 cable into two connectors on the GPU.
 2. Where did you plug the display cable? If you have a discrete GPU, put the display cable in there, unless you're planning to use the integrated GPU.
 3. Is the case front panel wired up? one of the cables might be in the wrong place, double check with the motherboard manual to see if that's the case.
 4. A common place for builds to not boot is incorrectly is the RAM stick isn't in correctly. They require some ridiculous force to stick in and even then one side might not be inserted correctly.
-5. It's hightly recommended to stick the GPU in the topmost PCIe slot. You might loose performance but it shouldn't cause too much issues, unless you have other devices each occupying their own slot. 
+5. It's hightly recommended to stick the GPU in the topmost PCIe slot. You might loose performance but it shouldn't cause too much issues, unless on the off chance you have other devices occupying so much PCIe lanes there's not enough bandwidth for the GPU
 6. If the PC is booting into the UEFI but not the OS, make sure of the following:
 	- The M.2 SSD is in place and plugged in correctly.
 	- SATA drives require their own power and data cables, one leading to the motherboard and the other to the PSU. Are they both in correctly?
@@ -84,6 +84,6 @@ Compressed air tends to be much more powerful and focused than your hairdryer, w
 That's it for hardware maintenance, there's zero reasons for you to do anything except swapping parts once you threw this rig together.
 
 
-[^1]: Integrated Memory Controller
+[^1]: IMC stands for Integrated Memory Controller. It's "integrated" because on ancient systems (pre-2011) it's the northbridge that interfaces with the memory.
 [^2]: For more details about memory testing software and DDR4 OC in general, read [this excellent article](https://github.com/integralfx/MemTestHelper/blob/oc-guide/DDR4%20OC%20Guide.md#memory-testing-software) written by Integralfx.
 [^3]: You could try undervolting your CPU or at least control it's power using [ThrottleStop](https://www.techpowerup.com/download/techpowerup-throttlestop), or simply lower the frequency and voltage via the BIOS. For the GPU, [MSI AB](https://msi.com/Landing/afterburner) or any popular GPU overclocking app can limit the GPU's power consumption.
