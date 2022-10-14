@@ -45,7 +45,7 @@ As a rule of thumb, CPUs are *extremely* hard to break, so I'm not going to cons
 		- AIDA64 and Memtest64 might miss some errors, and **definitely** don't use the built in Windows RAM troubleshooter.
 	- If the test returns unstable, return the RAM back to stock by resetting the CMOS. You'll loose speed, but it should be stable at least.
 - GPU OC and stablility can be tested using 3DMark, detailed in the other [Essential Information](Essential%20Information#tips) document.
-	- Alternatively [Furmark](https://www.techpowerup.com/download/furmark/) is good for GPU stress testing because it causes the GPu to draw the absolute max power it could. 
+	- Alternatively [Furmark](https://www.techpowerup.com/download/furmark/) is good for GPU stress testing because it causes the GPU to draw the absolute max power it could. 
 - There isn't an effective way to test a motherboard, you can only look for signs that it's unstable.
 	- Swapping GPUs can eliminate issues with the PCIe bus, and testing each individual RAM stick in different slots can rule out a memory issue.
 - Having high wattage components paired with a lower end PSU can cause the PSU to trigger it's protection and shut itself down. If your PC is just starting to do any heavy workloads when the shutdown happens this is probably what's happening.
@@ -73,15 +73,15 @@ Okay, jokes aside, what should you do on the off chance you didn't follow common
 2. Follow the on-screen guides of Windows Security and you're good to go.
 
 ## Hardware Maintenance
-There's not much you need to do hardware wise to keep your system fresh. If you have competent dust filters you don't even need to clear dust that often. If you do need to clear dust, use compressed air. 
+There's not much you need to do hardware wise to keep your system fresh. If you have competent dust filters you don't even need to clear dust that often. If you do need to clear dust, use compressed air and just about any brush would work. 
 
 Compressed air tends to be much more powerful and focused than your hairdryer, which doesn't do much *at all* to stubborn dust in a PC case.
 
 1. Take off the GPU shroud to get easier access to the fins and fans.
 2. Blow with compressed air until it's clean.
-3. If you're too lazy to install the shroud, sure, it doesn't do anything except block airflow and makes your hardware looks better.
+3. If you're too lazy to install the shroud back on, sure, it doesn't do anything except block airflow and makes your hardware looks better.
 
-That's it for hardware maintenance, there's zero reasons for you to do anything except swapping parts once you threw this rig together.
+That's it for hardware maintenance, there's zero reasons for you to do anything except swapping parts because of failures or upgrades once you built your rig.
 
 
 [^1]: IMC stands for Integrated Memory Controller. It's "integrated" because on ancient systems (pre-2011) it's the northbridge that interfaces with the memory.
