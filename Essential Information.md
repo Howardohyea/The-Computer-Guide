@@ -1,6 +1,7 @@
 <!--This document follows GitHub's .md file formatting, which might render slightly differently on other editors -->
 
 # Table of Contents
+- [PC Forever!]
 - [Table of Contents](#table-of-contents)
 - [Socket Overview](#socket-overview)
     - [Intel CPU/Socket list](#intel-cpu-list)
@@ -24,6 +25,14 @@
     - [Drivers and where to get them](#drivers-and-where-to-download)
     - [Tips](#tips)
 
+# Why PC?
+<!--![the author's motherboard and CPU](Assets/Strix%20A%20with%20i7.jpg)-->
+
+PC gaming is definitely the better choice compared to consoles, being much cheaper, flexible, powerful, and modular comared to them. If you're just picking up or planning to build your own rig, all the different components with varying support may be pretty overwhelming and might tempt you to buy a prebuilt PC or a console. 
+
+If you're overwhelmed, I'll do this best in this short document to make things as easy as possible for you to choose and build your own PC.
+
+
 # Socket Overview
 Intel and AMD always releases new CPU sockets every few generations, so it's hard to keep track which generation of CPUs goes with which socket. Thankfully, this guide is here to tell you what everything means.
 
@@ -37,7 +46,7 @@ K: overclockable and fully unlocked, every setting about the CPU frequency and v
 
 F: see [Integrated Graphics](#integrated-graphics).
 
-S: Special chips featuring higher core clocks than the non-S counterparts. Only CPUs released with the S suffix is the `i9 12900KS` and the `i9 9900KS`
+S: Special chips featuring higher core clocks than the non-S counterparts. Only CPUs released with the S suffix is the `i9 12900KS` and the `i9 9900KS`.
 
 X: HEDT[^1] chips, featuring much more core counts, PCIe lanes, and other features compared to the desktop counterparts. There is also the `XE` suffix, indicating it's the flagship. Intel haven't released any HEDT since the `i9 10980XE` in late 2019.
 
@@ -243,6 +252,7 @@ Here's a few tips that I suggest you to follow.
     - [Linus Tech Tips](https://www.youtube.com/c/LinusTechTips). I wouldn't take whatever Linus says for granted, but he is entertaining to watch.
 5. I actually suggest turning off or not enabling `BitLocker` or any drive encryption. This *will* make your PC vulnerable if it's stolen as anyone with the right knowledge can look at your files, but what are the odds of that? Also, turning it off can make salvaging your files when something goes catastrophically wrong much easier. 
 5. [Windows Terminal](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701) is a very good and customizable replacement to the ancient CMD interface with hardware accelerated text.
+6. Feeling low? Nothing [a few jokes can't fix](https://github.com/shrutikapoor08/devjoke)!
 
 
 [^1]: Stands for High End DeskTop
