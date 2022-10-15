@@ -1,7 +1,7 @@
 <!--This document follows GitHub's .md file formatting, which might render slightly differently on other editors -->
 
 # Table of Contents
-- [PC Forever!]
+- [Why PC](#why-pc)
 - [Table of Contents](#table-of-contents)
 - [Socket Overview](#socket-overview)
     - [Intel CPU/Socket list](#intel-cpu-list)
