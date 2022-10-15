@@ -130,7 +130,7 @@ AM4 only supports DDR4, and consists of 1331 pins on the CPU (so it's also calle
 
 
 ### AM5 support
-AM5 only supports DDR5
+AM5 only supports DDR5. It consists of 1713 pins on the motherboard, so it's also called LGA 1713, albiet rarely.
     
     B650 and B650E: desktop Ryzen 7000 support, 16 lanes PCIe 4 to GPU, 8 lanes PCIe 5 to SSD and peripherals.
     
