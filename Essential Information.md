@@ -39,6 +39,8 @@ Intel and AMD always releases new CPU sockets every few generations, so it's har
 ## Intel CPU/Socket list
 Intel tends to change sockets every two generations of CPUs, and might be confusing to some. 
 
+You will see a lot of `LGA xxxx` for Intel CPUs, and "LGA" stands for "Land Grid Array", meaning the pins are on the motherboard. The xxxx denotes a number, which is the number of pins on the motherboard socket.
+
 ### The various suffix
 Intel is known to have a lot of different suffix to various processors, here's their meaning. 
 
@@ -116,7 +118,7 @@ For AM5, all CPUs have integrated graphics, **there is no CPUs without iGPU as o
 All Ryzen CPUs paired with any motherboard except `A series` is officially overclockable. However, officially the Ryzen 7 5800X3D and all Athlon CPUs is locked, but unofficially they can be overclocked.
 
 ### AM4 support
-AM4 only supports DDR4
+AM4 only supports DDR4, and consists of 1331 pins on the CPU (so it's also called PGA1331).
 
     300 series motherboard: Ryzen 1000 and 2000 support, PCIe 3
 
