@@ -258,6 +258,6 @@ Here's a few tips that I suggest you to follow.
 
 
 [^1]: Stands for High End DeskTop
-[^2]: Bus Clock also dictates other system components like RAM and PCIe, kind of like letting a clock run faster and hope everyone catches up to it.
+[^2]: Bus Clock also dictates other system components like RAM and PCIe, kind of like letting a clock run faster and hope everyone catches up to it. This can very likely cause instability with a lot of components. 
 [^3]: Interestingly, there could be more than 2R on server memory, but we're not going to talk about them. 
 [^4]: If you're going the Linux route, I recommend KDE as your Desktop Environment.
