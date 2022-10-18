@@ -24,11 +24,12 @@
     - [Operating Systems](#operating-systems)
     - [Drivers and where to get them](#drivers-and-where-to-download)
     - [Tips](#tips)
+- [Glossary](#glossary)
 
 # Why PC?
 <!--![the author's motherboard and CPU](Assets/Strix%20A%20with%20i7.jpg)-->
 
-PC gaming is definitely the better choice compared to consoles, being much cheaper, flexible, powerful, and modular comared to them. If you're just picking up or planning to build your own rig, all the different components with varying support may be pretty overwhelming and might tempt you to buy a prebuilt PC or a console. 
+PC gaming is definitely the better choice compared to consoles, being much cheaper, flexible, powerful, modular. Plus, aside from gaming, you could use your PC to do work. At this day and age, everyone needs some sort of electronic device, so if you're buying a desktop, might as well as spend  bit more for some more powerful components. If you're just picking up or planning to build your own rig, all the different components with varying support may be pretty overwhelming and might tempt you to buy a prebuilt PC or a console. 
 
 If you're overwhelmed, I'll do this best in this short document to make things as easy as possible for you to choose and build your own PC.
 
@@ -54,19 +55,19 @@ X: HEDT[^1] chips, featuring much more core counts, PCIe lanes, and other featur
 
 T: Optimized for low power, with a max power of typically 65 watts for use in special cases. There is also a very rare `B` suffix, which have a power limit slightly higher than the T processors.
 
-H: Laptop CPUs, with a high power/performance.
+H: Laptop CPUs, with a high power/performance. Processor Base Power is usually 65 watts and higher. 
 
-P: Laptop CPUs, with a medium power and medium performance.
+P: Laptop CPUs, with a medium power and medium performance. Typical Processor Base Power is 35 watts. 
 
-U/G: Laptop CPUs with low power and performance. G means it have a better integrated GPU than the U.
+U/G: Laptop CPUs with low power and performance. G means it have a better integrated graphics than the U.
 
-Y: very low power, down to 8 watts, low core count typically too.
+Y: very low power laptop, down to 8 watts, low core count typically too.
 
 
 ### Integrated Graphics
 All Intel CPUs comes with integrated GPUs, except CPUs marked with `F`, such as the `i7 12700KF`. The `F` variants tends to be ~20 USD cheaper than the non-F counterparts. **However**, I strongly recommend spending some extra money for the iGPU, as they are excellent video encoders and is very useful when it comes to troubleshooting.
 
-Intel's integrated graphics are all quite weak though, don't expect them to be able to do anything except handle a display output and regular office tasks. 
+Intel's integrated graphics are all quite weak in anything 3D though, don't expect them to be able to do anything except very basic gaming, video playback, and regular office tasks.
 
 ### Overclocking information
 Officially, overclocking is possible when only `K` CPUs are being used with `Z` motherboards. However, on some select 12th gen motherboards, it is possible to do *Bus Clock overclocking* (abbreviated to *BCLK overclocking*) on `non-K` CPUs, which is very risky and requires extensive knowledge.[^2]
@@ -112,7 +113,8 @@ Unlike Intel, AMD tends to support each motherboard socket for a fairly long tim
 Only CPUs with the `G` suffix have an iGPU, such as the `Ryzen 7 5700G`. All `non-G` CPUs doesn't have any integrated graphics.
 
 #### AM5
-For AM5, all CPUs have integrated graphics, **there is no CPUs without iGPU as of time of this writing**. Despite this, `G Series` CPUs will still be released, featuring a much more powerful graphics than the ones without the G suffix.
+For AM5, all CPUs have integrated graphics, **there is no CPUs without iGPU as of time of this writing**. Despite this, `G Series` CPUs will still be released, featuring a much more powerful graphics than the ones without the G suffix. Ryzen 7000's iGPU is comparable to Intel's 12th gen CPU's, which is still significantly slower than a GT 1030. 
+
 
 ### Overclocking information
 All Ryzen CPUs paired with any motherboard except `A series` is officially overclockable. However, officially the Ryzen 7 5800X3D and all Athlon CPUs is locked, but unofficially they can be overclocked.
@@ -256,8 +258,15 @@ Here's a few tips that I suggest you to follow.
 5. [Windows Terminal](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701) is a very good and customizable replacement to the ancient CMD interface with hardware accelerated text.
 6. Feeling low? Nothing [a few jokes can't fix](https://github.com/shrutikapoor08/devjoke)!
 
+# Glossary
+**BCLK**: Bus Clock, the clock that dictates the speed every component in your PC runs at. By default, this value is 100 MHz.
+**Multiplier**: The speed in which the CPU runs at when multiplied by the BCLK. For example, if the multiplier is x50 and BCLK is 100, then the CPU is running at 5.0GHz. Altering this number is the easiest way to overclock a system. 
+**DDR**: Memory speed is all measured in `MT/s`, where MT is MegaTransfers. A lot of people might use `MHz`, which is technically incorrect but often used interchangeably with `MT`. So, the "DDR" means Double Data Rate, so for every Hz there is two data transfers happening. This effectively means a DDR4-3200 RAM is actually running at 1600MHz, but with the Double Data Rate the speed is effectively doubled.
+**GPU**: Graphics Processing Unit, another part of your PC that's just as important as the CPU. It plugs in the motherboard PCIe slot.
+**RTFM**: On forums, users might use this term, which means "Read the Fu*king manual". They're not delibrately not being helpful, but usually they're just annoyed at you for asking such a simple question that is very well documented, typically in the User's Manual in a product.
+
 
 [^1]: Stands for High End DeskTop
-[^2]: Bus Clock also dictates other system components like RAM and PCIe, kind of like letting a clock run faster and hope everyone catches up to it. This can very likely cause instability with a lot of components. 
+[^2]: Bus Clock also dictates other system components like RAM and PCIe, in a way it can be viewed as our clock. Changing its speed will cause some incompatibilities.
 [^3]: Interestingly, there could be more than 2R on server memory, but we're not going to talk about them. 
 [^4]: If you're going the Linux route, I recommend KDE as your Desktop Environment.
