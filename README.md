@@ -3,8 +3,8 @@ A guide to building a PC and troubleshoot whatever problems it have. All I've wr
 
 For the actual guides, please click on the following:
 
-- [Essential Information](Essential%20Information)
-- [Troubleshooting](Troubleshooting)
+- [Essential Information](Essential%20Information.md)
+- [Troubleshooting](Troubleshooting.md)
 
 
 ## Reporting issues

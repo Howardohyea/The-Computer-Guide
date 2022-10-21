@@ -260,10 +260,14 @@ Here's a few tips that I suggest you to follow.
 
 # Glossary
 **BCLK**: Bus Clock, the clock that dictates the speed every component in your PC runs at. By default, this value is 100 MHz.
+
 **Multiplier**: The speed in which the CPU runs at when multiplied by the BCLK. For example, if the multiplier is x50 and BCLK is 100, then the CPU is running at 5.0GHz. Altering this number is the easiest way to overclock a system. 
+
 **DDR**: Memory speed is all measured in `MT/s`, where MT is MegaTransfers. A lot of people might use `MHz`, which is technically incorrect but often used interchangeably with `MT`. So, the "DDR" means Double Data Rate, so for every Hz there is two data transfers happening. This effectively means a DDR4-3200 RAM is actually running at 1600MHz, but with the Double Data Rate the speed is effectively doubled.
+
 **GPU**: Graphics Processing Unit, another part of your PC that's just as important as the CPU. It plugs in the motherboard PCIe slot.
-**RTFM**: On forums, users might use this term, which means "Read the Fu*king manual". They're not delibrately not being helpful, but usually they're just annoyed at you for asking such a simple question that is very well documented, typically in the User's Manual in a product.
+
+**RTFM**: On forums, users might use this term, which means "Read The Fu*king Manual". They're not delibrately not being helpful, but usually they're just annoyed at you for asking such a simple question that is very well documented, typically in the User's Manual in a product.
 
 
 [^1]: Stands for High End DeskTop
