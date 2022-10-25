@@ -15,8 +15,26 @@ Also, read [Essential Information](https://github.com/Howardohyea/Computer-QRH/b
 ## Softwares
 You'll need some softwares to monitor your system, and these are:
 
-1. [HWInfo](https://www.hwinfo.com/), a program that can monitor just about anything you can dream of on your system.
+1. [HWInfo](https://www.hwinfo.com/), a program that can monitor just about anything you can dream of on your system. You'll need it for temperature, clocks, and power. [^1]
 2. [ThrottleStop](https://www.techpowerup.com/download/techpowerup-throttlestop/), which controls the CPU power and boosting behaviour.
-3. Alternatively, for CPUs with unlocked multipliers:
+3. Alternatively, for CPUs with unlocked multipliers[^2]:
     - [Intel XTU](https://www.intel.com/content/www/us/en/download/17881/intel-extreme-tuning-utility-intel-xtu.html) is Intel's software for overclocking their CPUs, can also used for undervolting.
     - [AMD Ryzen Master](https://www.amd.com/en/technologies/ryzen-master) is AMD's alternative to XTU.
+4. [MSI Afterburner](https://msi.com/Landing/afterburner), a very good overclocking software for all sorts of GPUs.
+    - [EVGA Precison X1](https://store.steampowered.com/app/268850/EVGA_Precision_X1/) is another alternative that can be found on Steam. It only supports Nvidia cards within a few years old though.
+    - [AMD Radeon Software](https://www.amd.com/en/technologies/software) can be used to overclock AMD GPUs too.
+
+That's all the software you'll need for casual tweaking.
+
+## Getting a baseline
+You'd want to run some benchmarks on your PC previously, such as 3DMark and Cinebench. You can find the download link in the other Essential Information document.
+
+# Undervolting
+Enough prerequisites, time to do the actual undervolting.
+
+## The CPU
+[Placeholder]
+
+
+[^2]: Do note that this is all software reported, which might be a few watts/millivolts off the actual hardware reading, not like it matters much for our sceneario.
+[^2]: all Intel CPUs with a `K` at the end is unlocked (including notebook processors), and all desktop AMD CPUs except the `R7 5800X3D` and all `Athlon` series CPUs is locked.
