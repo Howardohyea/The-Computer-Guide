@@ -1,0 +1,61 @@
+#include <ServoTimer2.h>
+#include <PeanutKingArduinoShield.h>
+#include <afstandssensor.h> AfstandsSensor afstandssensor(13, 12);
+ServoTimer2 servo1; ServoTimer2 servo2; int gL = A3;
+int gR = A2;
+int val = 0;
+int a = 1;
+Motor robot;
+void motor(int a, int b) {
+robot.set(a, -b); }
+void setup() {
+pinMode(gL, INPUT); pinMode(gR, INPUT); Serial.begin(9600); servo1.attach(8); servo1.write(0); servo2.attach(7); servo2.write(0);
+}
+void turnright180() {
+motor(255, -255);
+delay(950); }
+void turnleft180() { motor(-255, 255); delay(1250);
+}
+void loop() {
+Serial.println(afstandssensor.afstandCM());
+if (afstandssensor.afstandCM() < 23 && a == 1) {
+motor(255, 255); delay(1000); motor(-255, -255); delay(500); turnright180(); motor(-255, -255); delay(300); motor(0, 0); delay(1000); servo2.write(2000); delay(1000);
+
+ while (val != 1400) { servo1.write(val); val = val + 10; delay(10);
+}
+motor(-255, -255); delay(400); motor(255, -255); delay(400); motor(255, 255 ); delay(500);
+a++;
+}
+if (afstandssensor.afstandCM() < 7 && a == 2) {
+motor(-255, -255); delay(500); motor(255, -255); delay(1050); motor(-255, -255); delay(100); motor(0, 0); delay(1000);
+while (val != 1200) {
+servo1.write(val); val = val - 10; delay(10);
+}
+servo2.write(0); delay(1000); servo1.write(0); servo2.write(2000); delay(1000);
+val = 0 ;
+while (val != 1400) {
+servo1.write(val); val = val + 10; delay(10);
+}
+motor(-255, -255); delay(750); motor(-255, 255); delay(700); motor(255, 255 ); delay(300);
+a++;
+
+ }
+if (afstandssensor.afstandCM() < 15 && a == 3){
+motor(255, 255 ); delay(300); motor(255, -255);
+delay(400); motor(0, 0); while (val != 0) {
+servo1.write(val); val = val - 10; delay(10);
+}
+servo2.write(0); delay(1000); motor(-255, -255); delay(500); turnleft180(); motor(-255, -255); delay(400); motor(0, 0); delay(1000); servo2.write(2000); delay(1000);
+while (val != 1400) {
+servo1.write(val); val = val + 10; delay(10);
+}
+turnright180(); motor(-255, -255); delay(300); motor(0, 0);
+while (val != 0) { servo1.write(val); val = val - 10; delay(10);
+} servo2.write(0); delay(10000);
+}
+if (analogRead(gL) < 100) {
+motor(-255, 255); }
+else if (analogRead(gR) < 100) { motor(255, -255);
+
+ } else
+motor(255, 255 ); }
