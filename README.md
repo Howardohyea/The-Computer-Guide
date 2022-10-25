@@ -16,7 +16,7 @@ The same goes for incorrect information which I haven't noticed when writing, ju
 Since GitHub doesn't have a very good comment system, just use [issues](https://github.com/Howardohyea/Computer-QRH/issues) to ask a question, and I'll respond.
 
 ## Contribute
-If you feel like you have some changes or anything you want to implement, just make a fork of `Computer-QRH`, do your edit, then submit a pull request back to this project. 
+If you feel like you have some changes or anything you want to implement, just make a fork of `Computer-QRH`, do your edit, then submit a pull request back to this project. Also see [Contributing Guidelines](Assets/Contributing%20guidelines.md) for more information.
 
 ## Future Expansions
 Now that I'm more or less finished with all the files and Markdowns, I'm going to slowly add more information and images, and I'm going to make this into a GitHub Pages site.
