@@ -36,10 +36,11 @@ You'd want to run some benchmarks on your PC previously, such as 3DMark and Cine
 Enough prerequisites, time to do the actual undervolting.
 
 ## The CPU
-Typically you want to use ThrottleStop to underclock the CPU, which is as easy as setting a few settings. Follow the instructions down here, I'm going to use ThrottleStop for the steps below.
+Typically you want to use ThrottleStop to underclock the CPU, which is as easy as setting a few settings. Follow the instructions down here, I'm going to use ThrottleStop for the steps below. Honestly, there's so much settings you could tweak, and the *vast majority* is for legacy processors made before 2016. I'll assume you have something recent, and write only the relevant information down.[^3]
 
 1. 
 
 
-[^2]: Do note that this is all software reported, which might be a few watts/millivolts off the actual hardware reading, not like it matters much for our sceneario.
+[^1]: Do note that this is all software reported, which might be a few watts/millivolts off the actual hardware reading, not like it matters much for our sceneario.
 [^2]: all Intel CPUs with a `K` at the end is unlocked (including notebook processors), and all desktop AMD CPUs except the `R7 5800X3D` and all `Athlon` series CPUs is locked.
+[^3]: 
