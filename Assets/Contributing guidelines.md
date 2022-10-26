@@ -10,3 +10,5 @@ Anyone is welcome to contribute, but under the following conditions:
 **I retain the right to carry out the ultimate decision, which may even be in direct violation of this guidelines**
 
 [^1]: PR means Pull Requests, and will be referred like this for the remainder of this file.
+
+<!-- this feels stupid writing this contributing guidelines when there's barely any traffic over here -->

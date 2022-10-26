@@ -33,7 +33,7 @@ You'd want to run some benchmarks on your PC previously, such as 3DMark and Cine
 Enough prerequisites, time to do the actual undervolting.
 
 ## The CPU
-[Placeholder]
+Typically you want to use ThrottleStop to underclock the CPU, which is as easy as 
 
 
 [^2]: Do note that this is all software reported, which might be a few watts/millivolts off the actual hardware reading, not like it matters much for our sceneario.
