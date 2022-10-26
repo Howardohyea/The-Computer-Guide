@@ -23,6 +23,9 @@ You'll need some softwares to monitor your system, and these are:
 4. [MSI Afterburner](https://msi.com/Landing/afterburner), a very good overclocking software for all sorts of GPUs.
     - [EVGA Precison X1](https://store.steampowered.com/app/268850/EVGA_Precision_X1/) is another alternative that can be found on Steam. It only supports Nvidia cards within a few years old though.
     - [AMD Radeon Software](https://www.amd.com/en/technologies/software) can be used to overclock AMD GPUs too.
+5. Cinebench, for benchmarking the CPU. Download can be found in Essential Information.
+6. 3DMark, for GPU benchmark, find the download in Essential Informations too.
+
 
 That's all the software you'll need for casual tweaking.
 
@@ -33,7 +36,9 @@ You'd want to run some benchmarks on your PC previously, such as 3DMark and Cine
 Enough prerequisites, time to do the actual undervolting.
 
 ## The CPU
-Typically you want to use ThrottleStop to underclock the CPU, which is as easy as 
+Typically you want to use ThrottleStop to underclock the CPU, which is as easy as setting a few settings. Follow the instructions down here, I'm going to use ThrottleStop for the steps below.
+
+1. 
 
 
 [^2]: Do note that this is all software reported, which might be a few watts/millivolts off the actual hardware reading, not like it matters much for our sceneario.
