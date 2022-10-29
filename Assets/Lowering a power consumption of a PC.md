@@ -33,14 +33,16 @@ That's all the software you'll need for casual tweaking.
 You'd want to run some benchmarks on your PC previously, such as 3DMark and Cinebench. You can find the download link in the other Essential Information document.
 
 # Undervolting
-Enough prerequisites, time to do the actual undervolting.
+Enough prerequisites, time to do the actual undervolting. This section is split in two parts, being the CPU and GPU. 
 
 ## The CPU
-Typically you want to use ThrottleStop to underclock the CPU, which is as easy as setting a few settings. Follow the instructions down here, I'm going to use ThrottleStop for the steps below. Honestly, there's so much settings you could tweak, and the *vast majority* is for legacy processors made before 2016. I'll assume you have something recent, and write only the relevant information down.[^3]
+Typically you want to use ThrottleStop to underclock the CPU, which is as easy as setting a few settings. For this section, I'm going to use ThrottleStop. There's so much settings you could tweak in the app, and the *vast majority* is for legacy processors and depreciated features for proccessors made before 2016. I'll assume you have something recent, and write only the relevant information down.[^3]
 
-1. 
+![The FIVR panel, where most of the magic happens](https://www.ultrabookreview.com/wp-content/uploads/2019/09/fivr.jpg)
+
+1. Go to the `FIVR` setting, 
 
 
 [^1]: Do note that this is all software reported, which might be a few watts/millivolts off the actual hardware reading, not like it matters much for our sceneario.
 [^2]: all Intel CPUs with a `K` at the end is unlocked (including notebook processors), and all desktop AMD CPUs except the `R7 5800X3D` and all `Athlon` series CPUs is locked.
-[^3]: 
+[^3]: The legacy features I mentioned, you can find a more detailed article describing them at [The ThrottleStop Guide](https://www.ultrabookreview.com/31385-the-throttlestop-guide/). This is also where I based this section off of.
