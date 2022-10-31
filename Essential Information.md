@@ -247,8 +247,9 @@ Here's a few tips that I suggest you to follow.
 
 1. monitor various properties of your hardware using [HWiNFO](https://hwinfo.com), includes voltage, temps, power, and pretty much all information you need.
 2. Benchmarks:
-    - [Cinebench R23](https://apps.microsoft.com/store/detail/9PGZKJC81Q7J?hl=en-us&gl=US), a strictly CPU benchmark that is almost an industrial standard
-    - [3DMark](https://3dmark.com), a synthetic benchmark, not very good for comparison between hardware but useful to test overclocking. The full test is paid but the free demo can be found [here](steam://install/231350) (requires Steam to be installed on your PC).
+    - [Cinebench R23](https://apps.microsoft.com/store/detail/9PGZKJC81Q7J?hl=en-us&gl=US), a CPU benchmark that is virtually an industrial standard. Includes Single and Multithread benchmarks.
+    - [3DMark](https://3dmark.com), a synthetic benchmark for both CPU and GPU, not very good for comparison between hardware but useful to test overclocking. The full test is paid but the free demo can be found [here](steam://install/231350) (requires Steam to be installed on your PC).
+    - [LamePi](/Assets/LamePi.py), which is a parody of SuperPi. LamePi is a self made Python script that calculates Pi to a precision of 20 decimal place. This is strictly single threaded Flpating Point benchmark and requires a python intepreter to run. 
 3. Please don't use `Userbenchmark` to test your hardware, they are so biased it's a meme at this point. If you want to hear more details about why they suck, submit an issue and I'll comment the details, I don't want to turn this document into a rant against UBM.
 4. Some review sites I recommend:
     - [TechPowerUp](https://techpowerup.com)
