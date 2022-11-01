@@ -260,19 +260,21 @@ Here's a few tips that I suggest you to follow.
 6. Feeling low? Nothing [a few jokes can't fix](https://github.com/shrutikapoor08/devjoke)!
 
 # Glossary
-**BCLK**: Bus Clock, the clock that dictates the speed every component in your PC runs at. By default, this value is 100 MHz.
+**BCLK**: Bus Clock, the clock that dictates the speed every component in your PC runs at. By default, this value is 100 MHz, although some computers might run it slightly lower, at 99.8 for technical reasons. This can be tweaked, but a lot of components doesn't like it being ran at something other than 100, causing potential instabilities.
 
 **Multiplier**: The speed in which the CPU runs at when multiplied by the BCLK. For example, if the multiplier is x50 and BCLK is 100, then the CPU is running at 5.0GHz. Altering this number is the easiest way to overclock a system. 
 
 **DDR**: Memory speed is all measured in `MT/s`, where MT is MegaTransfers. A lot of people might use `MHz`, which is technically incorrect but often used interchangeably with `MT`. So, the "DDR" means Double Data Rate, so for every Hz there is two data transfers happening. This effectively means a DDR4-3200 RAM is actually running at 1600MHz, but with the Double Data Rate the speed is effectively doubled.
 
-**GPU**: Graphics Processing Unit, another part of your PC that's just as important as the CPU. It plugs in the motherboard PCIe slot.
+**GPU**: Graphics Processing Unit, another part of your PC that's just as important as the CPU yet is talked about much more rarely than the CPU. It plugs in the motherboard PCIe slot and calculates everything that is displayed on-screen.
 
-**RTFM**: On forums, users might use this term, which means "Read The Fu*king Manual". They're not delibrately not being helpful, but usually they're just annoyed at you for asking such a simple question that is very well documented, typically in the User's Manual in a product.
+**CPU**: Central Processing Unit, the part of the computer that's often referred to the "brain". iIt calculates all background tasks not directly involved with what's being displayed.
+
+**RTFM**: On forums, users might use this term, which means "Read The Fu*king Manual". They're not delibrately being unhelpful, but usually they're just annoyed at you for asking such a simple question that is very well documented, typically in the product's User Manual.
 
 
 [^1]: Stands for High End DeskTop
 [^2]: Bus Clock also dictates other system components like RAM and PCIe, in a way it can be viewed as our clock. Changing its speed will cause some incompatibilities.
 [^3]: Interestingly, there could be more than 2R on server memory, but we're not going to talk about them. 
 [^4]: If you're going the Linux route, I recommend KDE as your Desktop Environment.
-[^5]: LamePi asks users for the desired calculation accuracy. For reference, an `i7 11370H` took about 320 seconds to calculate to a precision of one billion. Do note, it is light on memory but *brutal* on single core, the processing time scales linearly with accuracy, so the execution time with an accuracy of 10 million will be 10 times longer than one million. 
+[^5]: LamePi asks users for the desired calculation accuracy. For reference, an `i7 11370H` took about 300 seconds to calculate to a precision of one billion. Do note, it is light on memory but *brutal* on single core, the processing time scales linearly with accuracy, so the execution time with an accuracy of 10 million will be 10 times longer than one million. 
