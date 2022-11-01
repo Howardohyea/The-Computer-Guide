@@ -249,7 +249,7 @@ Here's a few tips that I suggest you to follow.
 2. Benchmarks:
     - [Cinebench R23](https://apps.microsoft.com/store/detail/9PGZKJC81Q7J?hl=en-us&gl=US), a CPU benchmark that is virtually an industrial standard. Includes Single and Multithread benchmarks.
     - [3DMark](https://3dmark.com), a synthetic benchmark for both CPU and GPU, not very good for comparison between hardware but useful to test overclocking. The full test is paid but the free demo can be found [here](steam://install/231350) (requires Steam to be installed on your PC).
-    - [LamePi](/Assets/LamePi.py), which is a parody of SuperPi. LamePi is a self made Python script that calculates Pi to a precision of 20 decimal place. This is strictly single threaded Flpating Point benchmark and requires a python intepreter to run. 
+    - [LamePi](/Assets/LamePi.py), which is a parody of SuperPi. LamePi is a self made Python script that calculates Pi to a precision of 20 decimal place. This is strictly single threaded Floating Point benchmark and requires a python intepreter to run.[^5]
 3. Please don't use `Userbenchmark` to test your hardware, they are so biased it's a meme at this point. If you want to hear more details about why they suck, submit an issue and I'll comment the details, I don't want to turn this document into a rant against UBM.
 4. Some review sites I recommend:
     - [TechPowerUp](https://techpowerup.com)
@@ -275,3 +275,4 @@ Here's a few tips that I suggest you to follow.
 [^2]: Bus Clock also dictates other system components like RAM and PCIe, in a way it can be viewed as our clock. Changing its speed will cause some incompatibilities.
 [^3]: Interestingly, there could be more than 2R on server memory, but we're not going to talk about them. 
 [^4]: If you're going the Linux route, I recommend KDE as your Desktop Environment.
+[^5]: LamePi asks users for the desired calculation accuracy. For reference, an `i7 11370H` took about 320 seconds to calculate to a precision of one billion. Do note, it is light on memory but *brutal* on single core, the processing time scales linearly with accuracy, so the execution time with an accuracy of 10 million will be 10 times longer than one million. 
