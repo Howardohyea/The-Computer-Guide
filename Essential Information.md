@@ -101,8 +101,16 @@ Socket 1700:
     Motherboard: Z690, Z790, and other 600 and 700 series motherboards.
     CPU support: 12th gen, 13th gen
     Memory: DDR4 and 5
-    PCIe: PCIe 5 on the GPU PEG slot, NVMe depends on motherboard
-    Note: Z690 using PCIe5 storage will decrease bus width to graphics card.
+    PCIe: PCIe 5 on the GPU PEG slot, NVMe depends on motherboard.
+    Note: Z690 only supports 13th gen with a BIOS update while 700 series doesn't.
+
+**Upcoming** Socket 1851 is Intel's socket for 14th gen CPUs. The following is an educated guess and may not turn out to be correct:
+
+    Motherboard: Z890 and other 800 series motherboards.
+    CPU support: 14th (possibly 15th)
+    Memory: DDR5 (most likely no 4)
+    PCIe: 5 on GPU, possibly 5 on CPU by default
+    Note: only the compute die is built at Intel, rest is built using TSMC
 
 
 ## AMD CPU/socket list
@@ -173,7 +181,7 @@ Here's the steps:
 
 1. Install CPU to motherboard socket, note orientation of CPU in order to prevent damage, then press down on the latch to secure the CPU. 
 2. If you have an M.2 SSD, install it in the motherboard now, or else you might run into issues with clearance later on.
-2. Attach the motherboard to the case, note the orientation of the motherboard, and screw in the scrwes. As a suggestion, don't overtighten them, as you might damage the motherboard traces otherwise. 
+2. Attach the motherboard to the case, note the orientation of the motherboard, and screw in the scrwes. As a suggestion, don't overtighten them, as you might damage the traces on the motherboard. 
 3. Install RAM in corresponding sockets, for more RAM information, please see [RAM Compatibility](#ram-compatibility). Note: RAM often require a ridiculous amount of force to install, don't be afraid if the motherboard flexes slightly, make sure both ends of the RAM is in place.
 4. Locate the PSU bay, often the lower rear of the case, and secure the PSU inside and plug all necessary cables in the PSU.
     * list of cables you'd need:
@@ -210,7 +218,7 @@ That's just some general buying guide, and here's some technical information:
 
 * If both memory channels have different memory capacities, the CPU would run in what's called `Flex Mode`. This mode will run in dual channel mode (meaning faster bandwidth) as long as the memory utilization is less than twice the capacity of the smallest channel. If the capacity spills over, the system will revert to single channel, trading memory speed to use all of the available memory.
     * For example, if one channel is 8GB in size and the other is 16, the PC will run in dual channel mode as long as the memory utilization is below 16GB. If it goes over, the memory speed will halve but the PC will have access to the full 24GB of memory.
-* Another obscure piece of information not a lot of people know about is `Memory Rank`. All consumer RAM is either Single or Dual Rank, often abbreviated to 1R or 2R[^3].
+* Another obscure piece of information not a lot of people know about is `Memory Rank`. All consumer RAM is either Single or Dual Rank, often abbreviated to 1R or 2R[^3]. Typically 2R memory is ideal for a CPU.
 
 ### Setting XMP
 XMP, occasionally called DOCP, EXPO, or some other names, is a one-click overclock that changes the speed a stick of RAM runs at from the default JEDEC (often 2133 or 2666MT/s for DDR4) to the advertised speed written on the RAM stick. 
@@ -268,7 +276,7 @@ Here's a few tips that I suggest you to follow.
 
 **GPU**: Graphics Processing Unit, another part of your PC that's just as important as the CPU yet is talked about much more rarely than the CPU. It plugs in the motherboard PCIe slot and calculates everything that is displayed on-screen.
 
-**CPU**: Central Processing Unit, the part of the computer that's often referred to the "brain". iIt calculates all background tasks not directly involved with what's being displayed.
+**CPU**: Central Processing Unit, the part of the computer that's often referred to the "brain". It calculates all background tasks not directly involved with what's being displayed.
 
 **RTFM**: On forums, users might use this term, which means "Read The Fu*king Manual". They're not delibrately being unhelpful, but usually they're just annoyed at you for asking such a simple question that is very well documented, typically in the product's User Manual.
 
