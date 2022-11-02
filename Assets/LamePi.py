@@ -9,7 +9,7 @@ startTime = time.time()
 for i in range(0, accuracy):
     pi += ((4.0 * (-1)**i) / (2*i + 1))
 
-print("%.20f" % pi)
+print("%.15f" % pi)
 
 executionTime = (time.time() - startTime)
 print('Execution time in seconds: ' + str(executionTime))
