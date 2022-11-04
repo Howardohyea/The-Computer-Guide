@@ -72,6 +72,7 @@ Okay, jokes aside, what should you do on the off chance you didn't follow common
 
 1. Use [Windows Security](www.pcmag.com/reviews/microsoft-windows-defender-security-center). This built in tool is surprisingly competent at removing any malware and is definitely more than sufficient for most users.
 2. Follow the on-screen guides of Windows Security and you're good to go.
+3. Don't use 3rd party tools *at all* unless you know what you're doing.
 
 ## Hardware Maintenance
 There's not much you need to do hardware wise to keep your system fresh. If you have competent dust filters you don't even need to clear dust that often. If you do need to clear dust, use compressed air and just about any brush would work. 
