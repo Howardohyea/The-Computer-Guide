@@ -69,6 +69,7 @@ Common sense lives by the rule of thinking before you act. It helps us to see wh
 Common sense is not solely about using our minds to think of cool or witty inventions that will make us lots of money. It is about making wise decisions that affect our lives. When we lack common sense, we make decisions based on emotions rather than logic.
 
 Okay, jokes aside, what should you do on the off chance you didn't follow common sense?
+
 1. Use [Windows Security](www.pcmag.com/reviews/microsoft-windows-defender-security-center). This built in tool is surprisingly competent at removing any malware and is definitely more than sufficient for most users.
 2. Follow the on-screen guides of Windows Security and you're good to go.
 
