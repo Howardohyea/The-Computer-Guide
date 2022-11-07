@@ -204,7 +204,7 @@ So, that's the essentials to installing a PC, if your PC isn't booting, please c
 Here's some other non-essential information that doesn't really belong anywhere else, such as tips, driver downloads, and information that doesn't fit elsewhere in this document.
 
 ## The RAM Rabbit Hole
-Arguably, RAM is one of the most confusing part of a PC, with wild variances even with minor differences in hardware. For a much more detailed information than the one I have here, check out this very well-written article: [DDR DRAM FAQ](https://www.tomshardware.com/reviews/ddr-dram-faq,4154.html).
+Arguably, RAM is one of the most confusing part of a PC, with wild variances even with minor differences in hardware. For a much more detailed information than the one I have here, check out this very well-written article on [DDR4 RAM](https://www.tomshardware.com/reviews/ddr-dram-faq,4154.html).
 
 Here's some general tips you should follow:
 

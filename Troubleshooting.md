@@ -62,7 +62,8 @@ First off, use common sense. Secondly, *don't* go and install every antivirus pr
 What is common sense? 
 1. Don't install suspicious packages from suspicious sites, and *only* download games from Steam.
 2. Leave your firewall up at all times, and keep only the bare minimum amount of ports open.
-3. So called "Game Hacks" are most likely viruses, also, you shouldn't be using any hacks in the first place. 
+3. So called "Game Hacks" are most likely viruses, also, you shouldn't be using any hacks in the first place.
+4. Make a habit of avoid using 3rd party, only trust ones provided by Microsoft and programs you've written yourself. Treat all others with caution 
 4. and here's an excellent quote on what is common sense:
 > Common Sense is sound logic with practical and good reasoning. It is searching for simple but very useful ways of making decisions to solve problems. We are all born with the ability to think, create, and solve problems.
 Common sense lives by the rule of thinking before you act. It helps us to see what can become of something like George Washington Carver did, who saw how practical resources could benefit many people in the world.
@@ -86,6 +87,6 @@ Compressed air tends to be much more powerful and focused than your hairdryer, w
 That's it for hardware maintenance, there's zero reasons for you to do anything except swapping parts because of failures or upgrades once you built your rig.
 
 
-[^1]: IMC stands for Integrated Memory Controller. It's "integrated" because on ancient systems (pre-2011) it's the northbridge that interfaces with the memory.
+[^1]: IMC stands for Integrated Memory Controller. It's "integrated" because it is part of the CPU. On ancient systems (pre-2011), it's the northbridge that interfaces with the memory, so it's often also referred to as just the Memory Controller.
 [^2]: For more details about memory testing software and DDR4 OC in general, read [this excellent article](https://github.com/integralfx/MemTestHelper/blob/oc-guide/DDR4%20OC%20Guide.md#memory-testing-software) written by Integralfx.
-[^3]: You could try undervolting your CPU or at least control it's power using [ThrottleStop](https://www.techpowerup.com/download/techpowerup-throttlestop), or simply lower the frequency and voltage via the BIOS. For the GPU, [MSI AB](https://msi.com/Landing/afterburner) or any popular GPU overclocking app can limit the GPU's power consumption.
+[^3]: You could try undervolting your CPU or at least control it's power using [ThrottleStop](https://www.techpowerup.com/download/techpowerup-throttlestop), or simply lower the frequency and voltage via the BIOS. For the GPU, [MSI AB](https://msi.com/Landing/afterburner) or any popular GPU overclocking app as they can limit the GPU's power consumption.
