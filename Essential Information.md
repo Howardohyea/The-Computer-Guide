@@ -148,6 +148,8 @@ AM5 only supports DDR5. It consists of 1713 pins on the motherboard, so it's als
     
     X670E: flagship chipset, have full PCIe 5 support on GPU PEG slot and NVMe SSD.
 
+Thing is, there really isn't much feature difference between all those motherboards save for bandwidth. you don't need any of the X motherboards unless you somehow run two or more GPUs and have an absurd amount of NVMe and SATA drives.
+
 # Building the PC
 
 Now that we've got the socket and the most confusing part out of the way, let's throw everything together and hope it boots.
