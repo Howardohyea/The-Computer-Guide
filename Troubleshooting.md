@@ -25,9 +25,9 @@ I assume you just came from [Essential Information](Essential%20Information.md),
 6. If the PC is booting into the UEFI but not the OS, make sure of the following:
 	- The M.2 SSD is in place and plugged in correctly.
 	- SATA drives require their own power and data cables, one leading to the motherboard and the other to the PSU. Are they both in correctly?
-7. For modern motherboards, not having any fans plugged in to either `AIO_PUMP` or `CPU_FAN` can prevent your PC from booting. It will show an error screen at boot to let you know.
-8. I wrote this in [Essential Information](Essential%20Information), but in case you missed it, **do NOT** use cables from multiple PSUs, instead only use the ones provided by the PSU you bought. 
-9. To rule out possible issues related to the RAM, try each individual RAM stick in all the slots. Throw everything at a wall and see what sticks.
+7. For modern motherboards, not having any fans plugged in to either `AIO_PUMP` or `CPU_FAN` can prevent your PC from booting. It will show an error screen at boot to let you know. You don't really need the CPU fan in that header, but you don't need to remember exactly which fan is in which header.
+8. I wrote this in [Essential Information](Essential%20Information), but in case you missed it, **do NOT** mix cables from different PSUs, instead only use the ones provided by the PSU you bought. 
+9. To rule out possible issues related to the RAM, try each individual RAM one at a time in all the slots. Throw everything at a wall and see what sticks.
 
 That's it for a non-booting build, if it still doesn't boot, odds are you got a bad component somewhere or you didn't follow those instructions very well. Go over them a few times, who knows if third time's the charm?
 
@@ -50,6 +50,7 @@ As a rule of thumb, CPUs are *extremely* hard to break, so I'm not going to cons
 	- Swapping GPUs can eliminate issues with the PCIe bus, and testing each individual RAM stick in different slots can rule out a memory issue.
 - Having high wattage components paired with a lower end PSU can cause the PSU to trigger it's protection and shut itself down. If your PC is just starting to do any heavy workloads when the shutdown happens this is probably what's happening.
 	- In this case, there's not much you could do without swapping PSUs, you could try limit your PC's total power consumed but there's only so much you could do on the software side.[^3]
+-Instabilities in the OS itself is possible, especially if you messed around with it somehow and broke something. If this is the case, nuking the install and make a fresh install is recommended.
 
 # System maintenance
 Windows have a very good system to upgrading the system, and pretty much everything is automated. Run their updater every now and then and you're good to go.
@@ -63,17 +64,17 @@ What is common sense?
 1. Don't install suspicious packages from suspicious sites, and *only* download games from Steam.
 2. Leave your firewall up at all times, and keep only the bare minimum amount of ports open.
 3. So called "Game Hacks" are most likely viruses, also, you shouldn't be using any hacks in the first place.
-4. Make a habit of avoid using 3rd party, only trust ones provided by Microsoft and programs you've written yourself. Treat all others with caution 
+4. Make a habit of avoid using 3rd party, only trust ones provided by Microsoft, Open Sourced programs, and programs you've written yourself. Treat all others with caution. 
 4. and here's an excellent quote on what is common sense:
 > Common Sense is sound logic with practical and good reasoning. It is searching for simple but very useful ways of making decisions to solve problems. We are all born with the ability to think, create, and solve problems.
-Common sense lives by the rule of thinking before you act. It helps us to see what can become of something like George Washington Carver did, who saw how practical resources could benefit many people in the world.
+>Common sense lives by the rule of thinking before you act. It helps us to see what can become of something like George Washington Carver did, who saw how practical resources could benefit many people in the world.
 Common sense is not solely about using our minds to think of cool or witty inventions that will make us lots of money. It is about making wise decisions that affect our lives. When we lack common sense, we make decisions based on emotions rather than logic.
 
 Okay, jokes aside, what should you do on the off chance you didn't follow common sense?
 
 1. Use [Windows Security](www.pcmag.com/reviews/microsoft-windows-defender-security-center). This built in tool is surprisingly competent at removing any malware and is definitely more than sufficient for most users.
 2. Follow the on-screen guides of Windows Security and you're good to go.
-3. Don't use 3rd party tools *at all* unless you know what you're doing.
+3. Don't use 3rd party antivirus tools *at all* unless you know what you're doing.
 
 ## Hardware Maintenance
 There's not much you need to do hardware wise to keep your system fresh. If you have competent dust filters you don't even need to clear dust that often. If you do need to clear dust, use compressed air and just about any brush would work. 
@@ -83,8 +84,10 @@ Compressed air tends to be much more powerful and focused than your hairdryer, w
 1. Take off the GPU shroud to get easier access to the fins and fans.
 2. Blow with compressed air until it's clean.
 3. If you're too lazy to install the shroud back on, sure, it doesn't do anything except block airflow and makes your hardware looks better.
+4. Make sure the fans isn't spinning when you're blowing air at it, because in that case the fans is becoming a generator, and sending power *back* into your motherboard/GPU can seriously cause issues. 
+	- You could unplug the fans before hand, and now they don't mind being freely spun.
 
-That's it for hardware maintenance, there's zero reasons for you to do anything except swapping parts because of failures or upgrades once you built your rig.
+That's it for hardware maintenance, there's zero reasons for you to open anything up except swapping parts because of failures or upgrades once you built your rig.
 
 
 [^1]: IMC stands for Integrated Memory Controller. It's "integrated" because it is part of the CPU. On ancient systems (pre-2011), it's the northbridge that interfaces with the memory, so it's often also referred to as just the Memory Controller.
