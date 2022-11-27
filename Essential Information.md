@@ -282,9 +282,11 @@ Here's a few tips that I suggest you to follow.
 
 **RTFM**: On forums, users might use this term, which means "Read The Fu*king Manual". They're not delibrately being unhelpful, but usually they're just annoyed at you for asking such a simple question that is very well documented, typically in the product's User Manual.
 
+**PSU**: Power Supply, Unit, one of the only components in you PC you can't cheap out on, which can cause a lot more than slow performance. You can see sudden unexplained shutdowns and in some extreme cases a fire in the PSU.
+
 
 [^1]: Stands for High End DeskTop
 [^2]: Bus Clock also dictates other system components like RAM and PCIe, in a way it can be viewed as our clock. Changing its speed will cause some incompatibilities.
 [^3]: Interestingly, there could be more than 2R on server memory, but we're not going to talk about them. 
 [^4]: If you're going the Linux route, I recommend KDE as your Desktop Environment.
-[^5]: LamePi asks users for the desired calculation accuracy. For reference, an `i7 11370H` took about 300 seconds to calculate to a precision of one billion. Do note, the processing time scales linearly with accuracy, so the execution time with an accuracy of 10 million will be 10 times longer than one million. Decimal places past 15 is subject to Floating Point inaccuracy, which is culled.
+[^5]: LamePi asks users for the desired calculation accuracy. For reference, an `i7 11370H` took about 300 seconds to calculate to a precision of one billion. Do note, the processing time scales linearly with accuracy, so the execution time with an accuracy of 10 million will be 10 times longer than one million. Decimal places past 15 is subject to Floating Point inaccuracy, which is ignored by the program.
