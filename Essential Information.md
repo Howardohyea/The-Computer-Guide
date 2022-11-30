@@ -1,8 +1,8 @@
 <!--This document follows GitHub's .md file formatting, which might render slightly differently on other editors -->
 
 # Table of Contents
-- [Why PC](#why-pc)
 - [Table of Contents](#table-of-contents)
+- [Why PC](#why-pc)
 - [Socket Overview](#socket-overview)
     - [Intel CPU/Socket list](#intel-cpu-list)
         - [The various suffix](#the-various-suffix)
