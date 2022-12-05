@@ -110,7 +110,7 @@ Socket 1700:
     CPU support: 14th (possibly 15th)
     Memory: DDR5 (most likely no 4)
     PCIe: 5 on GPU, possibly 5 on CPU by default
-    Note: only the compute die is built at Intel, rest is built using TSMC
+    Note: only the compute die is built at Intel, rest is built using TSMC's nodes.
 
 
 ## AMD CPU/socket list
