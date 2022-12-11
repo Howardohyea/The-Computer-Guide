@@ -20,6 +20,7 @@
     - [Compoment Checklist](#component-checklist)
     - [Installation Process](#installation-process)
 - [Miscellaneous Notes](#miscellaneous-notes)
+    - [Entering the BIOS](#entering-the-bios)
     - [The RAM Rabbit Hole](#the-ram-rabbit-hole)
     - [Operating Systems](#operating-systems)
     - [Drivers and where to get them](#drivers-and-where-to-download)
@@ -205,6 +206,9 @@ So, that's the essentials to installing a PC, if your PC isn't booting, please c
 # Miscellaneous Notes
 Here's some other non-essential information that doesn't really belong anywhere else, such as tips, driver downloads, and information that doesn't fit elsewhere in this document.
 
+## Entering the BIOS
+On the off chance you don't know this, pressing either the F2, F12, or Delete key on startup will get you into most computer BIOSes. 
+
 ## The RAM Rabbit Hole
 Arguably, RAM is one of the most confusing part of a PC, with wild variances even with minor differences in hardware. For a much more detailed information than the one I have here, check out this very well-written article on [DDR4 RAM](https://www.tomshardware.com/reviews/ddr-dram-faq,4154.html).
 
@@ -258,8 +262,8 @@ Here's a few tips that I suggest you to follow.
 1. monitor various properties of your hardware using [HWiNFO](https://hwinfo.com), includes voltage, temps, power, and pretty much all information you need.
 2. Benchmarks:
     - [Cinebench R23](https://apps.microsoft.com/store/detail/9PGZKJC81Q7J?hl=en-us&gl=US), a CPU benchmark that is virtually an industrial standard. Includes Single and Multithread benchmarks.
-    - [3DMark](https://3dmark.com), a synthetic benchmark for both CPU and GPU, not very good for comparison between hardware but useful to test overclocking. The full test is paid but the free demo can be found [here](steam://install/231350) (requires Steam to be installed on your PC).
-    - [LamePi](/Assets/LamePi.py), which is a parody of SuperPi. LamePi is a self made Python script that calculates Pi to a precision of 15 decimal place. This is strictly single threaded Floating Point benchmark and requires a python intepreter to run.[^5]
+    - [3DMark](https://3dmark.com), a synthetic benchmark for both CPU and GPU, not very good for comparison between hardware but useful to test overclocking and stability. The full test is paid but the free demo can be found [here](steam://install/231350) (requires Steam to be installed on your PC).
+    - [LamePi](/Assets/LamePi.py), which is a parody of SuperPi. LamePi is a custom made Python script that calculates Pi to a precision of 15 decimal place. This is strictly single threaded Floating Point benchmark and requires a python intepreter to run.[^5]
 3. Please don't use `Userbenchmark` to test your hardware, they are so biased it's a meme at this point. If you want to hear more details about why they suck, submit an issue and I'll comment the details, I don't want to turn this document into a rant against UBM.
 4. Some review sites I recommend:
     - [TechPowerUp](https://techpowerup.com)
