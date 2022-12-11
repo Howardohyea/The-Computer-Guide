@@ -1,4 +1,4 @@
-# Computer-QRH
+# The Computer Guide
 A guide to building a PC and troubleshoot whatever problems it have. All I've written here is very oversimplified but for the sake of simplicity I've omitted quite a bit of information.
 
 For the actual guides, please click on the following:
