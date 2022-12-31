@@ -6,6 +6,9 @@ For the actual guides, please click on the following:
 - [Essential Information](Essential%20Information.md)
 - [Troubleshooting](Troubleshooting.md)
 
+The GitHub Pages site could be found [here](https://howardohyea.github.io/The-Computer-Guide/)
+And if you want to look at the source files, it's in [this repository](https://github.com/Howardohyea/The-Computer-Guide).
+
 
 ## Reporting issues
 I might make some stupid mistakes, like spelling or incorrect formatting. In that case, submit an issue [right here](https://github.com/Howardohyea/The-Computer-Guide/issues) and I'll resolve it. 
@@ -19,7 +22,7 @@ Since GitHub doesn't have a very good comment system, just use [issues](https://
 If you feel like you have some changes or anything you want to implement, just make a fork of `Computer-QRH`, do your edit, then submit a pull request back to this project. I'm quite busy these days so any additional information is greatly appreciated. Also see [Contributing Guidelines](Assets/Contributing%20guidelines.md) for more information.
 
 ## Future Expansions
-Now that I'm more or less finished with all the files and Markdowns, I'm going to slowly add more information and images, and I'm going to make this into a GitHub Pages site.
+Now that the fairly rudimentary GitHub Pages site is up and running, I'm going to do my best to fix it, add more formatting, and just QOL improvements.
 
 <!-- contact-->
 

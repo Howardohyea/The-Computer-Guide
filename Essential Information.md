@@ -252,7 +252,7 @@ Anyways the most commomly used drivers are the GPU drivers, and here's a link to
 
 * [AMD](https://www.amd.com/en/support)
 * [Nvidia](https://www.nvidia.com/Download/index.aspx?lang=en-us) (choose `Game Ready Drivers`, which contains optimizations for games the `Studio` drivers do not have).
-* [Intel](https://www.intel.com/content/www/us/en/download-center/home.html), but remember, Arc is Intel's discrete GPU, not their integrated.
+* [Intel](https://www.intel.com/content/www/us/en/download-center/home.html), but remember, only select Arc for their discrete GPUs. 
 
 If you're looking for motherboard drivers, you'll have to search the motherboard manufacturer's website. There's too many of them, so I won't list them all here.
 
