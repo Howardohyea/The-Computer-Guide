@@ -13,3 +13,4 @@ print("%.15f" % pi)
 
 executionTime = (time.time() - startTime)
 print('Execution time in seconds: ' + str(executionTime))
+print("score: " + str((accuracy/10000)/executionTime))
